@@ -7,7 +7,17 @@ import Portfolio from "./components/Portfolio";
 import SocialLinks from "./components/SocialLinks";
 import Awards from "./components/Awards";
 
+
+import React, { useEffect } from 'react';
+
+
+
 function App() {
+
+  useEffect(() => {
+    document.title = 'Aryan-Rusia-Portfolio';
+  });
+
   return (
     <div className="flex flex-col space-y-3 bg-black">
       
