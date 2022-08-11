@@ -7,7 +7,7 @@ import Project from "./components/project";
 import SocialLinks from "./components/SocialLinks";
 import Awards from "./components/Awards";
 import React, { useEffect } from 'react';
-import Education from "./components/Education";
+// import Education from "./components/Education";
 
 
 
@@ -25,7 +25,7 @@ function App() {
       <NavBar />
       <Home />
       <About />
-      <Education/>
+      {/* <Education/> */}
       <Project />
       <Experience />
       <Contact />
