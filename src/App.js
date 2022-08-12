@@ -7,7 +7,7 @@ import Project from "./components/project";
 import SocialLinks from "./components/SocialLinks";
 import Awards from "./components/Awards";
 import React, { useEffect } from 'react';
-// import Education from "./components/Education";
+import Education from "./components/Education";
 
 
 
@@ -20,14 +20,14 @@ function App() {
 
 
   return (
-    <div className="flex flex-col space-y-4 p-1 pt-0 bg-black ">
+    <div className="flex space-y-2 flex-col p-1 pt-0 bg-white dark:bg-black ">
 
       <NavBar />
       <Home />
       <About />
-      {/* <Education/> */}
+      <Education/>
       <Project />
-      <Experience />
+      <Experience /> 
       <Contact />
       <SocialLinks />
       <Awards />

@@ -65,7 +65,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 mt-20 mb-8 hover:scale-105 duration-300 cursor-pointer shadow-2xl shadow-cyan-300 dark:shadow-gray-500 "
+            className="rounded-2xl mx-auto w-2/3 mt-20 mb-32 md:mb-8 hover:scale-105 duration-300 cursor-pointer shadow-2xl shadow-cyan-300 dark:shadow-gray-500 "
           />
         </div>
       </div>

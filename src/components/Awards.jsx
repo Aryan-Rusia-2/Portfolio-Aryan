@@ -21,7 +21,7 @@ const Awards = () => {
 
                 <div className='w-full flex flex-col text-center mt-20 mb-10 px-12 sm:px-0 space-y-20 '>
 
-                    <details className='open:rounded-2xl hover:scale-110 rounded-md bg-gradient-to-br from-blue-400 to-cyan-400 dark:from-yellow-600 dark:to-amber-400 w-full sm:w-2/3 sm:justify-center mx-auto open:shadow-lg duration-200 open:shadow-black'>
+                    <details className='open:rounded-2xl hover:scale-110 rounded-md bg-gradient-to-br from-blue-400 to-cyan-400 dark:from-yellow-600  border-2 border-black dark:to-amber-400 w-full sm:w-2/3 sm:justify-center mx-auto open:shadow-lg duration-200 open:shadow-black'>
 
                         <summary className='text-black w-full font-semibold py-4 sm:w-2/3 place-content-center px-8 mx-auto flex rounded-md duration-300 bg-gradient-to-br from-blue-400 to-cyan-400 dark:from-yellow-600 dark:to-amber-400'>Karate</summary>
                         <div>
@@ -36,7 +36,7 @@ const Awards = () => {
 
 
 
-                    <details className='open:rounded-2xl hover:scale-110 rounded-md bg-gradient-to-b from-blue-400 to-cyan-400 dark:from-yellow-500 dark:to-amber-500 w-full sm:w-2/3 sm:justify-center mx-auto open:shadow-lg duration-200 open:shadow-black'>
+                    <details className='open:rounded-2xl  border-2 border-black hover:scale-110 rounded-md bg-gradient-to-b from-blue-400 to-cyan-400 dark:from-yellow-600 dark:to-amber-400 w-full sm:w-2/3 sm:justify-center mx-auto open:shadow-lg duration-200 open:shadow-black'>
 
                         <summary className='text-black w-full font-semibold py-4 sm:w-2/3 place-content-center px-8 mx-auto flex rounded-md duration-300 bg-gradient-to-b from-blue-400 to-cyan-400 dark:from-yellow-600 dark:to-amber-400'>Scholarship</summary>
                         <div>
@@ -53,7 +53,7 @@ const Awards = () => {
 
 
 
-                    <details className='open:rounded-2xl hover:scale-110 rounded-md bg-gradient-to-b from-blue-400 to-cyan-400 dark:from-yellow-500 dark:to-amber-500 w-full sm:w-2/3 sm:justify-center mx-auto open:shadow-lg duration-200 open:shadow-black'>
+                    <details className='open:rounded-2xl  border-2 border-black hover:scale-110 rounded-md bg-gradient-to-b from-blue-400 to-cyan-400 dark:from-yellow-600 dark:to-amber-400 w-full sm:w-2/3 sm:justify-center mx-auto open:shadow-lg duration-200 open:shadow-black'>
 
                         <summary className='text-black w-full font-semibold py-4 sm:w-2/3 place-content-center px-8 mx-auto flex rounded-md duration-300 bg-gradient-to-b from-blue-400 to-cyan-400 dark:from-yellow-600 dark:to-amber-400'>Music</summary>
                         <div>
@@ -67,7 +67,7 @@ const Awards = () => {
 
 
 
-                    <details className='open:rounded-2xl hover:scale-110 rounded-md bg-gradient-to-b from-blue-400 to-cyan-400 dark:from-yellow-500 dark:to-amber-500 w-full sm:w-2/3 sm:justify-center mx-auto open:shadow-lg duration-200 open:shadow-black'>
+                    <details className='open:rounded-2xl  border-2 border-black hover:scale-110 rounded-md bg-gradient-to-b from-blue-400 to-cyan-400 dark:from-yellow-600 dark:to-amber-400 w-full sm:w-2/3 sm:justify-center mx-auto open:shadow-lg duration-200 open:shadow-black'>
 
                         <summary className='text-black w-full font-semibold py-4 sm:w-2/3 place-content-center px-8 mx-auto flex rounded-md duration-300 bg-gradient-to-b from-blue-400 to-cyan-400 dark:from-yellow-600 dark:to-amber-400'>Certificate</summary>
                         <div>
