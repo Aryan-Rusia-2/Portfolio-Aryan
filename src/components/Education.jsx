@@ -2,7 +2,7 @@ import React from 'react'
 
 const Education = () => {
     return (
-        <div className='min-h-screen bg-gradient-to-br from-violet-200 via-violet-50 to-violet-100 dark:from-black dark:via-gray-900 dark:to-gray-800'>
+        <div name="education" className='min-h-screen bg-gradient-to-br from-violet-200 via-violet-50 to-violet-100 dark:from-black dark:via-gray-900 dark:to-gray-800'>
 
 
             <div className="pb-8 mx-10 mt-20 md:mx-32 md:mt-28 mb-14">

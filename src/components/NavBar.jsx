@@ -17,19 +17,23 @@ const NavBar = () => {
     },
     {
       id: 3,
-      link: "project",
+      link: "education",
     },
     {
       id: 4,
-      link: "experience",
+      link: "project",
     },
     {
       id: 5,
+      link: "experience",
+    },
+    {
+      id: 6,
       link: "contact",
     },
 
     {
-      id: 6,
+      id: 7,
       link: "awards",
     },
   ];
@@ -47,13 +51,13 @@ const NavBar = () => {
   };
 
   return (
-    <div className="flex font-semibold text-xl justify-between items-center w-full h-20 px-4 bg-cyan-300 text-gray-900 dark:text-white dark:bg-black fixed z-10">
+    <div className="flex font-semibold text-xl justify-between items-center w-full h-20 px-4 bg-cyan-50 text-gray-900 dark:text-white dark:bg-black fixed z-10">
 
       <ul className="hidden md:flex">
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 md:flex cursor-pointer capitalize text-md justify-start mr-20 text-gray-900 hover:text-black dark:text-gray-400 hover:scale-125 dark:hover:text-gray-50 duration-200"
+            className="px-4 md:flex cursor-pointer capitalize text-md justify-start mr-10 text-gray-900 hover:text-black dark:text-gray-400 hover:scale-125 dark:hover:text-gray-50 duration-200"
           >
             <Link to={link} smooth duration={500}>
               {link}
@@ -63,7 +67,7 @@ const NavBar = () => {
 
         ))}
 
-        <li className="hidden md:flex -ml-6 mr-3 pr-4">
+        <li className="hidden md:flex mr-5 ml-8 pr-4">
           <ToggleButton onClick={toggleDarkMode} />
         </li>
 
