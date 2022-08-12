@@ -70,7 +70,7 @@ const project = () => {
               <div className="flex items-center justify-center">
 
                  <a href={href}  target="_blank" rel="noreferrer"> 
-                <button className="w-fit px-6 py-3 m-4 duration-300  hover:scale-125">
+                <button className="w-fit px-6 py-3 m-4 duration-300 border-2 bg-cyan-100 dark:bg-gray-600 dark:text-white rounded-md border-black inline hover:scale-125">
                   View Code on Github
                   
                 </button>

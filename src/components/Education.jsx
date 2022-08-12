@@ -14,7 +14,7 @@ const Education = () => {
 
             <div className='space-y-10 hidden md:flex flex-col md:mb-24'>
 
-                <div className='flex p-2 text-sm ml-8 mr-4 px-2 md:mx-24 md:px-6 py-2 bg-cyan-300 hover:bg-cyan-400 dark:bg-gray-600 dark:hover:bg-gray-500 hover:scale-105 shadow-sm  dark:shadow-slate-600 duration-300 rounded-md md:p-6 dark:text-white'>
+                <div className='flex p-2 text-sm ml-8 mr-4 px-2 md:mx-24 md:px-6 py-2 bg-cyan-50 hover:bg-cyan-100 dark:bg-gray-600 dark:hover:bg-gray-500 hover:scale-105 shadow-sm  dark:shadow-slate-600 duration-300 rounded-md md:p-6 dark:text-white'>
 
 
                     <div className='flex flex-col md:mx-10 space-y-2'>
@@ -45,7 +45,7 @@ const Education = () => {
 
 
 
-                <div className='flex p-2 text-sm ml-8 mr-4 px-2 md:mx-24 md:px-6 py-2 bg-cyan-300 hover:bg-cyan-400 dark:bg-gray-600 hover:scale-105 shadow-sm dark:hover:bg-gray-500 dark:shadow-slate-600 duration-300 rounded-md md:p-6  dark:text-white'>
+                <div className='flex p-2 text-sm ml-8 mr-4 px-2 md:mx-24 md:px-6 py-2 bg-cyan-50 hover:bg-cyan-100 dark:bg-gray-600 hover:scale-105 shadow-sm dark:hover:bg-gray-500 dark:shadow-slate-600 duration-300 rounded-md md:p-6  dark:text-white'>
 
 
                     <div className='flex flex-col md:mx-10 space-y-2'>
@@ -77,7 +77,7 @@ const Education = () => {
 
 
 
-                <div className='flex p-2 text-sm ml-8 mr-4 px-2 md:mx-24 md:px-6 py-2 hover:scale-105 bg-cyan-300 hover:bg-cyan-400 shadow-sm dark:hover:bg-gray-500 dark:shadow-slate-600 duration-300  dark:bg-gray-600 rounded-md md:p-6 dark:text-white'>
+                <div className='flex p-2 text-sm ml-8 mr-4 px-2 md:mx-24 md:px-6 py-2 hover:scale-105 bg-cyan-50 hover:bg-cyan-100 shadow-sm dark:hover:bg-gray-500 dark:shadow-slate-600 duration-300  dark:bg-gray-600 rounded-md md:p-6 dark:text-white'>
 
 
                     <div className='flex flex-col md:mx-10 space-y-2'>
@@ -119,7 +119,7 @@ const Education = () => {
 
                     </div>
                     <div className='pt-6 text-center'>
-                        April 2018 - June 2019
+                    Sep 2020 - May 2024 (Expected)
                     </div>
 
                     <div className='p-1 text-center '>
@@ -136,7 +136,8 @@ const Education = () => {
 
                     </div>
                     <div className='pt-6 text-center'>
-                        Sep 2020 - May 2024 (Expected)
+                       
+                        April 2018 - June 2019
                     </div>
 
                     <div className='p-1 text-center '>
