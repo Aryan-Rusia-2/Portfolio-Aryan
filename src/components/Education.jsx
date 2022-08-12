@@ -12,8 +12,8 @@ const Education = () => {
             </div>
 
 
-            <div className='space-y-10 md:mb-24'>
- 
+            <div className='space-y-10 hidden md:flex flex-col md:mb-24'>
+
                 <div className='flex p-2 text-sm ml-8 mr-4 px-2 md:mx-24 md:px-6 py-2 bg-cyan-300 hover:bg-cyan-400 dark:bg-gray-600 dark:hover:bg-gray-500 hover:scale-105 shadow-sm  dark:shadow-slate-600 duration-300 rounded-md md:p-6 dark:text-white'>
 
 
@@ -63,7 +63,7 @@ const Education = () => {
 
                     <div className='flex flex-col ml-auto space-y-2'>
                         <div>
-                           April 2018 - June 2019
+                            April 2018 - June 2019
                         </div>
                         <div className='font-thin md:mx-4'>
                             (Percentage-96.2%)
@@ -95,7 +95,7 @@ const Education = () => {
 
                     <div className='flex flex-col ml-auto space-y-2'>
                         <div>
-                        April 2016 - June 2017
+                            April 2016 - June 2017
                         </div>
                         <div className='font-thin md:mx-4'>
                             (Percentage - 96.2%)
@@ -105,6 +105,62 @@ const Education = () => {
 
 
                 </div>
+
+            </div>
+
+            <div className='md:hidden flex flex-col space-y-8 dark:text-white'>
+
+                <div className=' bg-violet-200 dark:bg-gray-600 shadow-md shadow-zinc-500 m-3 rounded-md ml-8 mr-4 text-center p-2'>
+                    <div>
+                        Bachelor of Science - Computer Engineering
+                    </div>
+                    <div className='text-center'>
+                        (University of Alberta, Edmonton, AB)
+
+                    </div>
+                    <div className='pt-6 text-center'>
+                        April 2018 - June 2019
+                    </div>
+
+                    <div className='p-1 text-center '>
+                        (2nd Year GPA = 3.3/4)
+                    </div>
+                </div>
+
+                <div className='bg-violet-200 dark:bg-gray-600 m-3 shadow-md shadow-zinc-500 rounded-md ml-8 mr-4 text-center p-2'>
+                    <div>
+                        Class 12th
+                    </div>
+                    <div className='text-center'>
+                        (Kamm Scholars School, UP)
+
+                    </div>
+                    <div className='pt-6 text-center'>
+                        Sep 2020 - May 2024 (Expected)
+                    </div>
+
+                    <div className='p-1 text-center '>
+                        (Percentage-96.2%)
+                    </div>
+                </div>
+
+                <div className='bg-violet-200 dark:bg-gray-600 m-3 shadow-md shadow-zinc-500 rounded-md ml-8 mr-4 p-2 text-center'>
+                    <div>
+                        Class 10th
+                    </div>
+                    <div className='text-center'>
+                        (DAV Public School Chamba, HP)
+
+                    </div>
+                    <div className='pt-6 text-center'>
+                        April 2016 - June 2017
+                    </div>
+
+                    <div className='p-1 text-center '>
+                        (Percentage-96.2%)
+                    </div>
+                </div>
+
 
             </div>
 
