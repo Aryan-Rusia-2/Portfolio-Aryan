@@ -10,14 +10,15 @@ const About = () => {
           </p>
         </div>
 
-        <p className="text-xl mt-10 p-4">
-        Hello everyone, welcome to my website. My name is Aryan Rusia and I'm a third year computer engineering student at University of Alberta. I'm into web-development and 3d animation. I'm working on these skills from past one year.
+        <p className=" text-xl md:text-2xl mt-10 p-4">
+          Passionate and driven undergraduate student at University of Alberta, pursuing Bsc. in Computer Engineeering. I have been working on Web Development from past 6 months.
+          I have experience working with HTML, CSS, Javascript, React, Tailwind CSS and Bootstrap. I now specialise more in front-end development, but I'm also learning more about back-end development.
         </p>
 
         <br />
 
-        <p className="text-xl p-4">
-        I love learning new things about technology. I'm an enthusiast learner of technology. I also work as a freelancer for some of the most renowned freelancing websites. If you want to download the resume, hover over the fourth icon present on the left side of the screen.
+        <p className="text-xl md:text-2xl p-4">
+          This portfolio website is the first proper website created by me. I also continue to sharpen my Video Editing and 3D Animation abilities. 
         </p>
       </div>
     </div>
