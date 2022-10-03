@@ -43,7 +43,7 @@ const project = () => {
   return (
     <div
       name="project"
-      className=" bg-gradient-to-bl from-emerald-100 via-emerald-50 to-emerald-100 dark:from-gray-800 dark:via-gray-900 dark:to-black w-full dark:text-white md:min-h-screen p-10 pt-20"
+      className=" dark:bg-gradient-to-bl bg-white dark:from-gray-800 dark:via-gray-900 dark:to-black w-full dark:text-white md:min-h-screen p-10 pt-20"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
 

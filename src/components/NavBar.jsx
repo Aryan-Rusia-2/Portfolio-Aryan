@@ -51,7 +51,7 @@ const NavBar = () => {
   };
 
   return (
-    <div className="flex font-semibold text-xl justify-between items-center w-full h-20 px-4 bg-cyan-50 text-gray-900 dark:text-white dark:bg-black fixed z-10">
+    <div className="flex font-semibold text-xl justify-between items-center w-full h-20 px-4 bg-white dark:bg text-gray-900 dark:text-white dark:bg-black fixed z-10">
 
       <ul className="hidden md:flex">
         {links.map(({ id, link }) => (
@@ -88,7 +88,7 @@ const NavBar = () => {
       </div>
 
       {nav && (
-        <ul className="flex flex-col justify-center space-y-7 items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b text-black from-cyan-200 via-cyan-100 to-blue-200 dark:from-black dark:to-gray-800 dark:text-gray-500">
+        <ul className="flex flex-col justify-center space-y-7 items-center absolute max-h-screen top-0 left-0 w-full h-screen bg-gradient-to-b text-black from-cyan-200 via-cyan-100 to-blue-200 dark:from-black dark:to-gray-800 dark:text-gray-500">
           {links.map(({ id, link }) => (
             <li
               key={id}

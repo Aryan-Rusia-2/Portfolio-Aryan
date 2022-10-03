@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div
       name="home" class
-      className="h-screen w-full bg-gradient-to-br from-teal-100 via-teal-50 to-teal-100 dark:from-black dark:via-gray-900 dark:to-gray-800 text-left">
+      className="h-screen w-full bg-white dark:bg-gradient-to-br dark:from-black dark:via-gray-900 dark:to-gray-800 text-left">
 
 
       <div className="max-w-screen-lg mx-auto flex flex-col-reverse h-full px-4 md:flex-row p-4 ">
@@ -65,7 +65,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 mt-16 mb-32 md:mb-8 hover:scale-105 duration-300 cursor-pointer shadow-2xl shadow-cyan-300 dark:shadow-gray-500 "
+            className="hero-image rounded-2xl mx-auto w-2/3 mt-16 mb-32 md:mb-8 hover:scale-105 duration-300 cursor-pointer shadow-2xl shadow-cyan-300 dark:shadow-gray-500 "
           />
         </div>
       </div>

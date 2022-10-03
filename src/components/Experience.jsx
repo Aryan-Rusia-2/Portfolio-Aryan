@@ -75,7 +75,7 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="pt-20 bg-gradient-to-br from-lime-100 via-lime-50 to-lime-100 dark:from-black dark:via-gray-900 dark:to-gray-800 w-full min-h-screen p-10"
+      className="pt-20 dark:bg-gradient-to-br bg-white dark:from-black dark:via-gray-900 dark:to-gray-800 w-full min-h-screen p-10"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col text-black justify-center w-full h-full dark:text-white">
         <div>
@@ -89,7 +89,7 @@ const Experience = () => {
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={`shadow-xl hover:scale-110 text-white bg-gray-700 cursor-pointer duration-300 py-2 rounded-lg ${style}`}
+              className={`shadow-lg hover:scale-110 text-black border-black border-2 dark:bg-gray-500 dark:border-none dark:text-white bg-white cursor-pointer duration-300 py-2 rounded-lg ${style}`}
             >
               <img src={src} alt="" className="w-20 mx-auto" />
               <p className="mt-4">{title}</p>
