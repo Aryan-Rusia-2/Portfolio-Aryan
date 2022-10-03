@@ -8,6 +8,7 @@ import SocialLinks from "./components/SocialLinks";
 import Awards from "./components/Awards";
 import React, { useEffect } from 'react';
 import Education from "./components/Education";
+import Footer from "./components/Footer"
 
 
 
@@ -31,7 +32,9 @@ function App() {
       <Contact />
       <SocialLinks />
       <Awards />
+      <Footer/>
     </div>
+
   );
 }
 
