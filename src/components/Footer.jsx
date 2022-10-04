@@ -29,7 +29,7 @@ const Footer = () => {
                         </svg>
                     </a>
 
-                    <a href="https://www.instagram.com/harshit_joy_/" target="_blank"
+                    <a href="https://www.instagram.com/_aryan_rusia_/" target="_blank"
                         rel="noreferrer" class="mr-6 text-gray-600 dark:text-white  hover:scale-125 duration-300">
                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram"
                             class="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
