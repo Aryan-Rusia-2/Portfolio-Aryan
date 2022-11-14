@@ -9,6 +9,7 @@ import cplusplus from "../assets/cplusplus.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import premiere from "../assets/premiere.png";
+import Tilt from "react-parallax-tilt";
 
 const Experience = () => {
   const techs = [
@@ -87,13 +88,14 @@ const Experience = () => {
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-6 md:gap-14 text-center py-8 px-3 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
-            <div
+            <Tilt glareEnable={true} glareMaxOpacity={0.9} glareColor='lightblue' glarePosition="all"
+            
               key={id}
-              className={`shadow-lg hover:scale-110 text-black border-black border-2 dark:bg-gray-500 dark:border-none dark:text-white bg-white cursor-pointer duration-300 py-2 rounded-lg ${style}`}
+              className={`shadow-lg hover:scale-110 text-black border-black border-2 dark:bg-[#31435c] dark:border-none dark:text-white bg-white cursor-pointer duration-300 py-2 rounded-lg ${style}`}
             >
               <img src={src} alt="" className="w-20 mx-auto" />
               <p className="mt-4">{title}</p>
-            </div>
+            </Tilt>
           ))}
         </div>
       </div>

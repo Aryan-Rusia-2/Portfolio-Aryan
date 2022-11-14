@@ -2,6 +2,10 @@ import React from "react";
 import HeroImage from "../assets/heroImage.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
+// import TiltComponent from '../TiltComponent';
+import Tilt from "react-parallax-tilt";
+
+
 
 
 
@@ -61,13 +65,13 @@ const Home = () => {
 
         </div>
 
-        <div>
+        <Tilt>
           <img
             src={HeroImage}
             alt="my profile"
             className="hero-image rounded-2xl mx-auto w-2/3 mt-16 mb-32 md:mb-8 hover:scale-105 duration-300 cursor-pointer shadow-2xl shadow-cyan-300 dark:shadow-gray-500 "
           />
-        </div>
+        </Tilt>
       </div>
     </div>
   );
