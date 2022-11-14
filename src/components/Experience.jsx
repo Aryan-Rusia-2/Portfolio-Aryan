@@ -1,4 +1,5 @@
 import React from "react";
+import Tilt from "react-parallax-tilt";
 
 import html from "../assets/html.png";
 import css from "../assets/css.png";
@@ -9,7 +10,7 @@ import cplusplus from "../assets/cplusplus.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import premiere from "../assets/premiere.png";
-import Tilt from "react-parallax-tilt";
+
 
 const Experience = () => {
   const techs = [
