@@ -67,7 +67,7 @@ const NavBar = () => {
 
         ))}
 
-        <li className="hidden md:flex mr-5 ml-8 pr-4">
+        <li className="hidden md:flex mr-5 ml-8 pr-4 z=-10">
           <ToggleButton onClick={toggleDarkMode} />
         </li>
 
@@ -88,7 +88,7 @@ const NavBar = () => {
       </div>
 
       {nav && (
-        <ul className="flex flex-col justify-center space-y-7 items-center absolute max-h-screen top-0 left-0 w-full h-screen bg-gradient-to-b text-black from-cyan-200 via-cyan-100 to-blue-200 dark:from-black dark:to-gray-800 dark:text-gray-500">
+        <ul className=" flex flex-col justify-center space-y-7 items-center absolute max-h-screen top-0 left-0 w-full h-screen bg-gradient-to-b text-black from-cyan-200 via-cyan-100 to-blue-200 dark:from-black dark:to-gray-800 dark:text-gray-500">
           {links.map(({ id, link }) => (
             <li
               key={id}
@@ -112,7 +112,7 @@ const NavBar = () => {
 
 
       <div className="flex flex-row-reverse">
-        <h1 className="text-5xl mb-2 font-normal font-special text-gray-800 dark:text-gray-400 mr-5 duration-200 hover:scale-110 cursor-pointer mt-2 hover:text-black dark:hover:text-gray-50">Aryan</h1>
+        <h1 className="text-2xl mb-2 font-normal font-special text-gray-800 dark:text-gray-400 -ml-10 duration-200 hover:scale-110 cursor-pointer mt-2 hover:text-black dark:hover:text-gray-50">Light/Dark</h1>
         <div className="mt-5 mr-6 px-4 md:hidden">
         <ToggleButton onClick={toggleDarkMode} />
         </div>
