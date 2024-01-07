@@ -32,10 +32,10 @@ const Education = () => {
 
                     <div className='flex flex-col ml-auto space-y-2'>
                         <div>
-                            Sep 2020 - May 2024 (Expected)
+                            Sep 2020 - May 2025 (Expected)
                         </div>
                         <div className='font-thin md:mx-4'>
-                            (2nd Year GPA = 3.3/4)
+                            (Last 50 credits, GPA = 3.6/4)
                         </div>
 
                     </div>
@@ -123,7 +123,7 @@ const Education = () => {
                     </div>
 
                     <div className='p-1 text-center '>
-                        (2nd Year GPA = 3.3/4)
+                        (Last 50 credits, GPA = 3.6/4)
                     </div>
                 </div>
 
