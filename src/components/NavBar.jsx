@@ -112,7 +112,7 @@ const NavBar = () => {
 
 
       <div className="flex flex-row-reverse">
-        <h1 className="text-2xl mb-2 font-normal font-special text-gray-800 dark:text-gray-400 -ml-10 duration-200 hover:scale-110 cursor-pointer mt-2 hover:text-black dark:hover:text-gray-50">Light/Dark</h1>
+        <h1 className="text-2xl mb-2 font-normal font-special text-gray-800 dark:text-gray-400 -ml-20 duration-200 hover:scale-110 cursor-pointer mt-2 hover:text-black dark:hover:text-gray-50">Light/Dark</h1>
         <div className="mt-5 mr-6 px-4 md:hidden">
         <ToggleButton onClick={toggleDarkMode} />
         </div>
