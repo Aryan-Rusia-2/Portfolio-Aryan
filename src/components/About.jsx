@@ -1,39 +1,28 @@
 import React from "react";
+import vg from "../assets/2.png"
 
 const About = () => {
   return (
-    <div name="about" className="w-full h-screen dark:bg-gradient-to-br  text-gray-900 bg-white dark:from-gray-800 dark:via-gray-900 dark:to-black dark:text-white">
-      <div className="max-w-screen-lg p-4 mt-10 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
-          <p className="text-3xl p-5 font-bold inline lg:border-b-4 border-black dark:border-gray-500">
-            About
-          </p>
+<div className='about'>
+        <div id='about' >
+            <p className="text-4xl font-bold pt-32 p-2 text-center text-white">
+                About me 😀
+            </p>
         </div>
+        <div className="home2" id='about' >
 
-        <p className=" text-xl md:text-xl mt-10 p-4">
-Greetings! I'm Aryan Rusia, a passionate and results-driven computer engineering student at the University of Alberta, set to graduate in 2025. With a cumulative GPA of 3.6/4.0, I've delved deep into the realms of machine learning, data analytics, and database management systems during my academic journey.
-   </p>
 
-        <br />
+            <img src={vg} alt="Graphics" />
+            <div>
+                <p>I am a 3rd year undergrad student at University of Alberta pursuing Electrical Engineering with an expected year of completion Fall 2024. I am passionate about Computer Science and Software engineering, and have learned courses, completed internships, and participated in fests and clubs related to the field. </p>
+                 <p>Doing numerous coding projects and implementing my skills in practical work I got the exposure of working in tech related fields in the real world environment. Doing electrical engineering made me learn complex and advanced microchip and microprocessors hardware programming language that serves as a significant help while using these skills in software programming at the machine level.</p> 
+                 <p> I am currently working as a part time software engineer intern online in Surya Comtrade llp, in India, with expected completion date December, 2022.</p>
 
-        <p className="text-xl md:text-xl p-4">
-         Currently serving as the Co-founder and CTO of SnowBotics, I've led our tech initiatives to propel our startup into the Top 20 in Edmonton within just 6 months. I thrive on strategic alignment, having successfully integrated technology requirements with budget constraints and securing funding through diverse competitions.
-As a tech enthusiast, I've explored various facets of the field, from web development to machine learning. Noteworthy projects include the creation of a user-friendly "Laptop Price Predictor" and the implementation of fuzzy logic for the Kessler Game Controller, earning us 2nd place in a university competition.
-
-   </p>
-          <br />
-
-                <p className="text-xl md:text-xl p-4">
-In the realm of research, I've delved into the applicability of Ionic Devices in the Ising model, earning a nomination as Highly Qualified Personnel for an NSERC report.
-
-I'm not just a tech aficionado – I'm also a creative mind with skills ranging from web design to video editing. Beyond coding, I've presented our projects at esteemed events like Collision, Startup TNT, and Alberta Catalyzer, showcasing my ability to communicate complex tech concepts to diverse audiences.
-
-My journey is a testament to my commitment to continuous learning, problem-solving, and a genuine love for all things tech. Let's connect and explore the possibilities at the intersection of innovation and technology.
-      </p>
-        
-      </div>
+            </div>
+        </div>
     </div>
-  );
+
+)
 };
 
 export default About;
