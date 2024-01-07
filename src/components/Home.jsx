@@ -30,10 +30,10 @@ const Home = () => {
           <ul className="px-8 space-y-4 font-semibold p-4 list-disc  text-gray-800 dark:text-gray-200 text-2xl mb-10 mt-10">
             <li className="hover:text-gray-900 dark:hover:text-white hover:scale-105 duration-200 cursor-pointer">Co-founder SnowBotics</li>
             <li className="hover:text-gray-900 dark:hover:text-white hover:scale-105 duration-200 cursor-pointer">Data Scientist</li>
-            <li className="hover:text-gray-900 dark:hover:text-white hover:scale-105 duration-200 cursor-pointer">Student at U of Alberta</li>
+            <li className="hover:text-gray-900 dark:hover:text-white hover:scale-105 duration-200 cursor-pointer">Machine Learning Enthusiast</li>
 
             <li className="hover:text-gray-900 dark:hover:text-white hover:scale-105 duration-200 cursor-pointer">
-              Future Computer Engineer
+              Creative Web Designer
             </li>
 
 
