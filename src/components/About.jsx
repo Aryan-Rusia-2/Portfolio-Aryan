@@ -18,6 +18,13 @@ Greetings! I'm Aryan Rusia, a passionate and results-driven computer engineering
 
         <p className="text-xl md:text-2xl p-4">
          Currently serving as the Co-founder and CTO of SnowBotics, I've led our tech initiatives to propel our startup into the Top 20 in Edmonton within just 6 months. I thrive on strategic alignment, having successfully integrated technology requirements with budget constraints and securing funding through diverse competitions.
+As a tech enthusiast, I've explored various facets of the field, from web development to machine learning. Noteworthy projects include the creation of a user-friendly "Laptop Price Predictor" and the implementation of fuzzy logic for the Kessler Game Controller, earning us 2nd place in a university competition.
+
+   </p>
+          <br />
+
+                <p className="text-xl md:text-2xl p-4">
+         Currently serving as the Co-founder and CTO of SnowBotics, I've led our tech initiatives to propel our startup into the Top 20 in Edmonton within just 6 months. I thrive on strategic alignment, having successfully integrated technology requirements with budget constraints and securing funding through diverse competitions.
 
 As a tech enthusiast, I've explored various facets of the field, from web development to machine learning. Noteworthy projects include the creation of a user-friendly "Laptop Price Predictor" and the implementation of fuzzy logic for the Kessler Game Controller, earning us 2nd place in a university competition.
 
@@ -27,6 +34,7 @@ I'm not just a tech aficionado – I'm also a creative mind with skills ranging 
 
 My journey is a testament to my commitment to continuous learning, problem-solving, and a genuine love for all things tech. Let's connect and explore the possibilities at the intersection of innovation and technology.
       </p>
+        
       </div>
     </div>
   );
