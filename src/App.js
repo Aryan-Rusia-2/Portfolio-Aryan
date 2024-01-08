@@ -21,7 +21,7 @@ function App() {
 
 
   return (
-    <div className="flex space-y-2 flex-col p-1 pt-0 bg-white dark:bg-black ">
+    <div className="flex space-y-2 flex-col p-1 pt-0 bg-white dark:bg-gray-800 ">
 
       <NavBar />
       <Home />
