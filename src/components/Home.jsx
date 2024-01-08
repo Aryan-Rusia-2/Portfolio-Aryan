@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div
       name="home" class
-      className="md:pt-14  h-screen w-full bg-white dark:bg-gradient-to-br dark:from-black dark:via-gray-900 dark:to-gray-800 text-left">
+      className="md:pt-14 h-screen w-full bg-white dark:bg-gray-800  text-left">
 
 
       <div className="max-w-screen-lg mx-auto flex flex-col-reverse h-full px-4 md:flex-row p-4 ">
@@ -28,12 +28,12 @@ const Home = () => {
 
 
           <ul className="px-8 space-y-4 font-semibold p-4 list-disc  text-gray-800 dark:text-gray-200 text-2xl mb-10 mt-10">
+            <li className="hover:text-gray-900 dark:hover:text-white hover:scale-105 duration-200 cursor-pointer">BSc in Computer Engineering</li>
             <li className="hover:text-gray-900 dark:hover:text-white hover:scale-105 duration-200 cursor-pointer">Co-founder SnowBotics</li>
-            <li className="hover:text-gray-900 dark:hover:text-white hover:scale-105 duration-200 cursor-pointer">Data Scientist</li>
-            <li className="hover:text-gray-900 dark:hover:text-white hover:scale-105 duration-200 cursor-pointer">Machine Learning Enthusiast</li>
+            <li className="hover:text-gray-900 dark:hover:text-white hover:scale-105 duration-200 cursor-pointer">Machine Learning</li>
 
             <li className="hover:text-gray-900 dark:hover:text-white hover:scale-105 duration-200 cursor-pointer">
-              Creative Web Designer
+              Future Computer Engineer
             </li>
 
 
@@ -69,7 +69,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="my profile"
-            className="hero-image rounded-2xl mx-auto w-2/3 mt-16 mb-32 md:mb-8 hover:scale-105 duration-300 cursor-pointer shadow-2xl shadow-cyan-300 dark:shadow-gray-500 "
+            className="hero-image rounded-2xl mx-auto w-2/3 mt-16 mb-32 md:mb-8 hover:scale-102 duration-300 cursor-pointer shadow-xl shadow-cyan-300 dark:shadow-gray-500 "
           />
         </Tilt>
       </div>

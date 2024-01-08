@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
     return (
 
-        <footer class="text-center lg:text-left dark:bg-gray-900 dark:text-white bg-gray-100 text-gray-600">
+        <footer class="text-center lg:text-left dark:bg-gray-800 dark:text-white bg-gray-100 text-gray-600">
             <div class="flex justify-center items-center lg:justify-between py-6 px-2 md:p-6 border-b border-gray-300">
                 <div class="mr-12 hidden lg:block mx-auto">
                     <span>Get connected with me on social networks :</span>
@@ -60,9 +60,9 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div class="text-center p-6 dark:bg-gray-900 dark:text-white bg-gray-100">
+            <div class="text-center p-6 dark:bg-gray-800 dark:text-white bg-gray-100">
                 <span>© 2022 Copyright:</span>
-                <button class="text-gray-600 dark:bg-gray-900 dark:text-white font-semibold" >Aryan Rusia</button>
+                <button class="text-gray-600 dark:bg-gray-800 dark:text-white font-semibold" >Aryan Rusia</button>
             </div>
         </footer>
 

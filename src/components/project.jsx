@@ -58,7 +58,7 @@ const project = () => {
       id: 8,
       src: navsystem,
       href: "https://github.com/Aryan-Rusia-2/Navigation-System",
-      text: "Edmonton Route Mapping"
+      text: "Edmonton Route"
     },
     {
       id: 9,

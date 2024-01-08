@@ -6,7 +6,7 @@ const Awards = () => {
     return (
 
 
-        <div name="awards" className='min-h-screen bg-white dark:bg-gradient-to-br from-cyan-100 via-cyan-50 to-cyan-100 dark:from-black dark:via-gray-900 dark:to-gray-800  dark:text-white'>
+        <div name="awards" className='min-h-screen bg-white from-cyan-100 via-cyan-50 to-cyan-100 dark:bg-gray-800  dark:text-white'>
 
             <div>
 

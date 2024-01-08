@@ -160,17 +160,17 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="pt-20 dark:bg-gradient-to-br bg-white dark:from-black dark:via-gray-900 dark:to-gray-800 w-full min-h-screen p-10"
+      className="pt-20 bg-white dark:bg-gray-800 w-full min-h-screen p-10"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col text-black justify-center w-full h-full dark:text-white">
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-800 dark:border-gray-500 p-2 inline">
-           Technologies I've worked with
+          Familiar Technologies
           </p>
           <p className="py-6 mt-6"></p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-6 md:gap-14 text-center py-8 px-3 sm:px-0 ">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 font-serif gap-6 md:gap-14 text-center py-8 px-3 sm:px-0 ">
           {techs.map(({ id, src, title, style }) => (
             <Tilt glareEnable={true} glareMaxOpacity={0.9} glareColor='lightblue' glarePosition="all"
             
