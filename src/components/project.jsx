@@ -71,23 +71,19 @@ const project = () => {
   return (
     <div
       name="project"
-      className=" dark:bg-gray-800 bg-white  w-full dark:text-white md:min-h-screen p-10 pt-20"
+      className=" dark:bg-gray-800 bg-white w-full dark:text-white md:min-h-screen p-10 md:pt-20"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col items-center w-full h-full">
 
         <div>
 
-          <p className="text-4xl font-bold inline border-b-4 dark:border-gray-500">
+          <p className="text-4xl font-bold inline justify-center dark:border-gray-500 ">
             Projects
-          </p>
-
-          <p className="py-10">
-            Check out some of my work right here
           </p>
 
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-16 px-4 sm:px-0 pb-10">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-16 px-4 sm:px-0 pb-10 pt-20">
           {projects.map(({ id, src, href, text }) => (
             <div key={id} className="shadow-xl shadow-gray-700 dark:shadow-blue-300 rounded-lg">
 

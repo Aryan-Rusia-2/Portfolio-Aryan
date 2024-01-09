@@ -13,7 +13,7 @@ const Awards = () => {
                 <div className='p-5 mt-20 items-center'>
 
                     <h2 className='text-4xl font-bold flex hover:scale-105 duration-200 justify-center border-gray-500'>
-                        Awards and Honors
+                        Awards
                     </h2>
 
                 </div>

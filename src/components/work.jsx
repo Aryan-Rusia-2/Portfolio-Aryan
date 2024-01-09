@@ -6,7 +6,7 @@ const Work = () => {
     return (
 
 
-        <div name="work" className='min-h-screen bg-white from-cyan-100 via-cyan-50 to-cyan-100 dark:bg-gray-800 dark:text-white'>
+        <div name="work" className='md:min-h-screen bg-white from-cyan-100 via-cyan-50 to-cyan-100 dark:bg-gray-800 dark:text-white'>
 
             <div>
 
@@ -46,9 +46,9 @@ const Work = () => {
                         <summary className='text-black w-full font-semibold py-4 sm:w-2/3 place-content-center px-8 mx-auto flex rounded-md duration-300 dark:bg-gradient-to-b bg-blue-300 dark:from-yellow-600 dark:to-amber-400'>Research Intern</summary>
                         <div>
                             <p className='dark:text-white rounded-b-2xl bg-gray-300 dark:bg-gray-800 text-sm px-6 py-4 list-outside capitalize sm:w-full space-y-4 justify-start pt-6 text-justify'>
-                                <li>•	Explored the applicability of Ionic Devices in the Ising model.</li>
-                                <li>•	Carried out experiments, examined data, and exhibited findings at an event within university.</li>
-                                <li>•	Nominated as HQP (Highly Qualified Personnel) for NSERC report by the professor for exceptional contributions.</li>
+                                <li>Explored the applicability of Ionic Devices in the Ising model.</li>
+                                <li>Carried out experiments, examined data, and exhibited findings at an event within university.</li>
+                                <li>Nominated as HQP (Highly Qualified Personnel) for NSERC report by the professor for exceptional contributions.</li>
                             </p>
                         </div>
                     </details>

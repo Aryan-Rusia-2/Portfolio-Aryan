@@ -2,11 +2,11 @@ import React from 'react'
 
 const Education = () => {
     return (
-        <div name="education" className='min-h-screen bg-white dark:bg-gray-800'>
+        <div name="education" className='md:min-h-screen pb-20 md:pb-20 bg-white dark:bg-gray-800'>
 
 
-            <div className="pb-8 mx-10 mt-20 md:mx-32 md:mt-28 mb-14">
-                <p className="text-4xl font-bold inline border-b-4 text-black dark:text-white border-black dark:border-gray-500 ">
+            <div className="pb-8 mx-10 mt-20 md:mx-32 md:mt-28 mb-14 items-center">
+                <p className="text-4xl font-bold inline border-b-4 justify-center text-black dark:text-white border-black dark:border-gray-500 ">
                     Education
                 </p>
             </div>

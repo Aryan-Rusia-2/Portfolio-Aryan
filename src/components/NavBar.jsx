@@ -1,10 +1,15 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 import ToggleButton from "./toggle.jsx";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
+
+  useEffect(() => {
+    // Hardcode dark mode
+    document.querySelector("html").classList.add("dark");
+  }, []);
 
   const links = [
     {

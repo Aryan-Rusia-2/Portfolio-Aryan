@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div
       name="home" class
-      className="md:pt-14 h-screen w-full bg-white dark:bg-gray-800  text-left">
+      className="pt-14 h-screen w-full bg-white dark:bg-gray-800 text-left">
 
 
       <div className="max-w-screen-lg mx-auto flex flex-col-reverse h-full px-4 md:flex-row p-4 ">

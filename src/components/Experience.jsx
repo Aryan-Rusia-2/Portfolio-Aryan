@@ -160,12 +160,12 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="pt-20 bg-white dark:bg-gray-800 w-full min-h-screen p-10"
-    >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col text-black justify-center w-full h-full dark:text-white">
+      className="pt-20 bg-white dark:bg-gray-800 w-full min-h-screen p-10">
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col text-black items-center w-full h-full dark:text-white">
+        
         <div>
-          <p className="text-4xl font-bold border-b-4 border-gray-800 dark:border-gray-500 p-2 inline">
-          Familiar Technologies
+          <p className="text-4xl justify-center font-bold md:border-b-4 border-gray-800 dark:border-gray-500  inline">
+          Skills
           </p>
           <p className="py-6 mt-6"></p>
         </div>
