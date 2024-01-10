@@ -9,6 +9,7 @@ import Awards from "./components/Awards";
 import React, { useEffect } from 'react';
 import Education from "./components/Education";
 import Footer from "./components/Footer"
+import Working from "./components/work";
 
 
 
@@ -26,9 +27,10 @@ function App() {
       <NavBar />
       <Home />
       <About />
-      <Education/>
+      <Working />
       <Project />
       <Experience /> 
+      <Education/>
       <Contact />
       <SocialLinks />
       <Awards />
