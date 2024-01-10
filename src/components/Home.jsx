@@ -4,9 +4,6 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 // import TiltComponent from '../TiltComponent';
 import Tilt from "react-parallax-tilt";
-import { motion } from "framer-motion";
-import Typewriter from "typewriter-effect";
-
 
 const Home = () => {
   return (
