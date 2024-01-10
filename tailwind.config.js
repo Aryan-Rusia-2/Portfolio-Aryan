@@ -6,7 +6,9 @@ module.exports = {
     
     fontFamily: {
       signature: ["Great Vibes"],
-      special: ["Mouse Memoirs"]
+      special: ["Mouse Memoirs"],
+      professional: ["Roboto Condensed"],
+      style: ["Tektur"]
     },
   },
   plugins: [],
