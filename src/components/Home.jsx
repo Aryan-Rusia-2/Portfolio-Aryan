@@ -4,10 +4,8 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 // import TiltComponent from '../TiltComponent';
 import Tilt from "react-parallax-tilt";
-
-
-
-
+import { motion } from "framer-motion";
+import Typewriter from "typewriter-effect";
 
 
 const Home = () => {
@@ -24,17 +22,14 @@ const Home = () => {
 
         <div className="flex flex-col justify-center items-center h-full -mt-44 md:mt-0">
 
-          <h1 className="px-4 font-special text-8xl text-gray-800 dark:text-gray-200 hidden md:flex hover:scale-105 hover:drop-shadow-2xl duration-300">ARYAN RUSIA</h1>
+          <h1 className="px-4 font-style text-5xl text-gray-800 dark:text-gray-200 hidden md:flex hover:scale-105 hover:drop-shadow-2xl duration-300">ARYAN RUSIA</h1>
 
 
           <ul className="px-8 space-y-4 font-semibold p-4 list-disc  text-gray-800 dark:text-gray-200 text-2xl mb-10 mt-10">
-            <li className="hover:text-gray-900 dark:hover:text-white hover:scale-105 duration-200 cursor-pointer">BSc in Computer Engineering</li>
-            <li className="hover:text-gray-900 dark:hover:text-white hover:scale-105 duration-200 cursor-pointer">Co-founder SnowBotics</li>
-            <li className="hover:text-gray-900 dark:hover:text-white hover:scale-105 duration-200 cursor-pointer">Machine Learning</li>
-
-            <li className="hover:text-gray-900 dark:hover:text-white hover:scale-105 duration-200 cursor-pointer">
-              Future Computer Engineer
-            </li>
+            <li className="hover:text-gray-900 dark:hover:text-white hover:scale-105 duration-200 cursor-pointer font-professional">Co-founder SnowBotics</li>
+            <li className="hover:text-gray-900 dark:hover:text-white hover:scale-105 duration-200 cursor-pointer font-professional">Data Scientist</li>
+            <li className="hover:text-gray-900 dark:hover:text-white hover:scale-105 duration-200 cursor-pointer font-professional">Machine Learning Enthusiast</li>
+            <li className="hover:text-gray-900 dark:hover:text-white hover:scale-105 duration-200 cursor-pointer font-professional">Web Developer</li>
 
 
           </ul>

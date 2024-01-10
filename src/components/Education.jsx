@@ -5,7 +5,7 @@ const Education = () => {
         <div name="education" className='md:min-h-screen pb-20 md:pb-20 bg-white dark:bg-gray-800'>
 
 
-            <div className="pb-8 mx-10 mt-20 md:mx-32 md:mt-28 mb-14 items-center">
+            <div className="pb-8 mx-10 mt-20 md:mx-32 md:mt-28 mb-14 flex items-center justify-center">
                 <p className="text-4xl font-bold inline border-b-4 justify-center text-black dark:text-white border-black dark:border-gray-500 ">
                     Education
                 </p>
@@ -22,7 +22,7 @@ const Education = () => {
                         <div>
                             Bachelor of Science (B.S.) - Computer Engineering
                         </div>
-                        <div className='md:mx-4 font-thin'>
+                        <div className='md:mx-4 font-'>
                             (University of Alberta, Edmonton, AB)
                         </div>
 

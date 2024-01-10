@@ -20,7 +20,7 @@ const Work = () => {
 
                 <div className='w-full flex flex-col text-center mt-20 mb-10 px-12 sm:px-0 space-y-20 '>
 
-                    <details className='open:rounded-2xl hover:scale-110 rounded-md dark:bg-gradient-to-br dark:from-yellow-600  border-2 bg-blue-300 border-black dark:to-amber-400 w-full sm:w-2/3 sm:justify-center mx-auto open:shadow-lg duration-200 open:shadow-black'>
+                    <details open={true} className='open:rounded-2xl hover:scale-110 rounded-md dark:bg-gradient-to-br dark:from-yellow-600  border-2 bg-blue-300 border-black dark:to-amber-400 w-full sm:w-2/3 sm:justify-center mx-auto open:shadow-lg duration-200 open:shadow-black'>
 
                         <summary className='text-black w-full font-semibold py-4 sm:w-2/3 place-content-center px-8 mx-auto flex rounded-md duration-300 dark:bg-gradient-to-br bg-blue-300 dark:from-yellow-600 dark:to-amber-400'>Co-founder and CTO at SnowBotics</summary>
                         <div>
@@ -41,7 +41,7 @@ const Work = () => {
 
 
 
-                    <details className='open:rounded-2xl  border-2 border-black hover:scale-110 rounded-md dark:bg-gradient-to-b bg-blue-300 dark:from-yellow-600 dark:to-amber-400 w-full sm:w-2/3 sm:justify-center mx-auto open:shadow-lg duration-200 open:shadow-black'>
+                    <details open={true}  className='open:rounded-2xl  border-2 border-black hover:scale-110 rounded-md dark:bg-gradient-to-b bg-blue-300 dark:from-yellow-600 dark:to-amber-400 w-full sm:w-2/3 sm:justify-center mx-auto open:shadow-lg duration-200 open:shadow-black'>
 
                         <summary className='text-black w-full font-semibold py-4 sm:w-2/3 place-content-center px-8 mx-auto flex rounded-md duration-300 dark:bg-gradient-to-b bg-blue-300 dark:from-yellow-600 dark:to-amber-400'>Research Intern</summary>
                         <div>
