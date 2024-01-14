@@ -37,7 +37,7 @@ function App() {
           <Route path="/laptop-price-predictor" element={<LaptopPricePage />} />
           <Route path="/motor-project" element={<MotorPage />} />
           <Route path="/elevator-project" element={<ElevatorPage />} />
-          <Route path="/cpu-project" element={<CpuPage />} />
+          <Route path="/cpu-project" element={<MainPage />} />
         </Routes>
         <Footer />
       </div>
