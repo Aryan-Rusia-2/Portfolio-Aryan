@@ -33,11 +33,11 @@ function App() {
       <div className="flex space-y-1 flex-col p-1 pt-0 bg-white dark:bg-zinc-900">
         
         <Routes>
-          <Route path="/" element={<CpuPage />} />
+          <Route path="/" element={<MainPage />} />
           <Route path="/laptop-price-predictor" element={<LaptopPricePage />} />
           <Route path="/motor-project" element={<MotorPage />} />
           <Route path="/elevator-project" element={<ElevatorPage />} />
-          <Route path="/cpu-project" element={<MainPage />} />
+          <Route path="/cpu" element={<CpuPage />} />
         </Routes>
         <Footer />
       </div>
