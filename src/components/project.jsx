@@ -10,61 +10,66 @@ import Laptop from "../assets/project/Laptop.png";
 import Kessler from "../assets/project/kessler.png";
 
 const project = () => {
-  const projects = [
+  const ds_ml_projects = [
     {
       id: 1,
       src: Laptop,
-      href: "https://github.com/Aryan-Rusia-2/Divide-and-Conquer-Example",
-      text: "Laptop Price Predictor"
+      href: "/laptop-price-predictor",
+      text: "Laptop Price Predictor",
     },
     {
       id: 2,
       src: Whatsapp,
       href: "https://github.com/Aryan-Rusia-2/Matrix-Operations",
-      text: "WhatsApp Chat Analyzer"
+      text: "WhatsApp Chat Analyzer",
     },
     {
       id: 3,
       src: Kessler,
       href: "https://github.com/Aryan-Rusia-2/Microsoft-Clone",
-      text: "Kessler Game Controller"
+      text: "Kessler Game Controller",
     },
+  ];
 
+  const hardware_projects = [
     {
-      id: 4,
+      id: 1,
       src: divide,
-      href: "https://github.com/Aryan-Rusia-2/Divide-and-Conquer-Example",
-      text: "Divide & Conquer Algorithm"
+      href: "/motor-project",
+      text: "Stepper Motor - Zybo Z7",
     },
     {
-      id: 5,
+      id: 2,
       src: matrix,
-      href: "https://github.com/Aryan-Rusia-2/Matrix-Operations",
-      text: "Matrix Operations using Java"
+      href: "/elevator-project",
+      text: "Elevator System - VHDL",
     },
     {
-      id: 6,
+      id: 3,
       src: Microsoft,
-      href: "https://github.com/Aryan-Rusia-2/Microsoft-Clone",
-      text: "Microsoft Clone"
+      href: "/cpu-project",
+      text: "8-bit CPU Design",
     },
+  ];
+
+  const software_projects = [
     {
-      id: 7,
+      id: 1,
       src: facebook,
       href: "https://github.com/Aryan-Rusia-2/Facebook-signup-page-login",
-      text: "Facebook sign-up page"
+      text: "Facebook sign-up page",
     },
     {
-      id: 8,
+      id: 2,
       src: navsystem,
       href: "https://github.com/Aryan-Rusia-2/Navigation-System",
-      text: "Edmonton Route"
+      text: "Edmonton Route",
     },
     {
-      id: 9,
+      id: 3,
       src: car,
       href: "https://github.com/Aryan-Rusia-2/Moving_Car_Animation",
-      text: "Moving Car Animation"
+      text: "Moving Car Animation",
     },
   ];
 
@@ -74,34 +79,95 @@ const project = () => {
       className=" dark:bg-gray-800 bg-white w-full dark:text-white md:min-h-screen p-10 md:pt-20"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col items-center w-full h-full">
-
         <div>
-
-          <p className="text-4xl font-bold inline justify-center dark:border-gray-500 ">
-            Projects
+          <p className="text-2xl md:text-4xl font-bold inline justify-center dark:border-gray-500 ">
+            Machine Learning Projects
           </p>
-
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-16 px-4 sm:px-0 pb-10 pt-20">
-          {projects.map(({ id, src, href, text }) => (
-            <div key={id} className="shadow-xl shadow-gray-700 dark:shadow-blue-300 rounded-lg">
-
-              <img src={src} alt="" className="rounded-md duration-200 hover:scale-105" />
-
-             
+          {ds_ml_projects.map(({ id, src, href, text }) => (
+            <div
+              key={id}
+              className="shadow-xl shadow-gray-700 dark:shadow-blue-300 rounded-lg"
+            >
+              <img
+                src={src}
+                alt=""
+                className="rounded-md duration-200 hover:scale-105"
+              />
 
               <div className="flex items-center justify-center">
-
-                 <a href={href}  target="_blank" rel="noreferrer"> 
-                {/* <button className="w-fit px-6 py-3 m-4 duration-300 border-2 bg-cyan-100 dark:bg-gray-600 dark:text-white rounded-md border-yellow-400 inline hover:scale-105"> */}
-                <button className="dark:bg-gray-800 w-fit px-6 py-3 m-4 duration-300 bg-cyan-100 dark:text-white rounded-md border-2 border-gray-500 inline hover:scale-105">
-                  {text}
-                  
-                </button>
+                <a href={href} target="_blank" rel="noreferrer">
+                  {/* <button className="w-fit px-6 py-3 m-4 duration-300 border-2 bg-cyan-100 dark:bg-gray-600 dark:text-white rounded-md border-yellow-400 inline hover:scale-105"> */}
+                  <button className="dark:bg-gray-800 w-fit px-6 py-3 m-4 duration-300 bg-cyan-100 dark:text-white rounded-md border-2 border-gray-500 inline hover:scale-105">
+                    {text}
+                  </button>
                 </a>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
 
+      <div className="max-w-screen-lg pt-28 p-4 mx-auto flex flex-col items-center w-full h-full">
+        <div>
+          <p className="text-3xl md:text-4xl font-bold inline justify-center dark:border-gray-500 ">
+            Hardware Projects
+          </p>
+        </div>
 
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-16 px-4 sm:px-0 pb-10 pt-20">
+          {hardware_projects.map(({ id, src, href, text }) => (
+            <div
+              key={id}
+              className="shadow-xl shadow-gray-700 dark:shadow-blue-300 rounded-lg"
+            >
+              <img
+                src={src}
+                alt=""
+                className="rounded-md duration-200 hover:scale-105"
+              />
+
+              <div className="flex items-center justify-center">
+                <a href={href} target="_blank" rel="noreferrer">
+                  {/* <button className="w-fit px-6 py-3 m-4 duration-300 border-2 bg-cyan-100 dark:bg-gray-600 dark:text-white rounded-md border-yellow-400 inline hover:scale-105"> */}
+                  <button className="dark:bg-gray-800 w-fit px-6 py-3 m-4 duration-300 bg-cyan-100 dark:text-white rounded-md border-2 border-gray-500 inline hover:scale-105">
+                    {text}
+                  </button>
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="max-w-screen-lg p-4 pt-28 mx-auto flex flex-col items-center w-full h-full">
+        <div>
+          <p className="text-3xl md:text-4xl font-bold inline justify-center dark:border-gray-500 ">
+            Software Projects
+          </p>
+        </div>
+
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-16 px-4 sm:px-0 pb-10 pt-20">
+          {software_projects.map(({ id, src, href, text }) => (
+            <div
+              key={id}
+              className="shadow-xl shadow-gray-700 dark:shadow-blue-300 rounded-lg"
+            >
+              <img
+                src={src}
+                alt=""
+                className="rounded-md duration-200 hover:scale-105"
+              />
+
+              <div className="flex items-center justify-center">
+                <a href={href} target="_blank" rel="noreferrer">
+                  {/* <button className="w-fit px-6 py-3 m-4 duration-300 border-2 bg-cyan-100 dark:bg-gray-600 dark:text-white rounded-md border-yellow-400 inline hover:scale-105"> */}
+                  <button className="dark:bg-gray-800 w-fit px-6 py-3 m-4 duration-300 bg-cyan-100 dark:text-white rounded-md border-2 border-gray-500 inline hover:scale-105">
+                    {text}
+                  </button>
+                </a>
               </div>
             </div>
           ))}
