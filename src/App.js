@@ -15,6 +15,7 @@ import Laptoppricepredictor from "./projects/laptopprice"
 import Motor from "./projects/motor"
 import Elevator from "./projects/elevator"
 import Cpu from "./projects/cpu"
+import ReseachIntern from "./projects/researchintern"
 import Working from "./components/work";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -37,7 +38,8 @@ function App() {
           <Route path="/laptop-price-predictor" element={<LaptopPricePage />} />
           <Route path="/motor-project" element={<MotorPage />} />
           <Route path="/elevator-project" element={<ElevatorPage />} />
-          <Route path="/cpu" element={<CpuPage />} />
+          <Route path="/cpu-project" element={<CpuPage />} />
+          <Route path="/research-intern" element={<ReseachInternPage />} />
         </Routes>
         <Footer />
       </div>
@@ -88,6 +90,13 @@ const CpuPage = () => (
   <>
   <NavBar2/>
 <Cpu/>
+  </>
+)
+const ReseachInternPage = () => (
+
+  <>
+  <NavBar2/>
+<ReseachIntern/>
   </>
 )
 
