@@ -1,5 +1,7 @@
 import React from "react";
 import HeroImage from "../assets/heroImage.jpg";
+// import HeroImage from "../assets/profile.png";
+// import HeroImage from "../assets/pic.webp";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 // import TiltComponent from '../TiltComponent';
@@ -43,16 +45,16 @@ const Home = () => {
               </span>
             </Link>
 
-            <Link
-              to="project"
+            <a
+              href="https://online-cv-aryan.netlify.app/"
               smooth
               duration={500}
               className="group hover:scale-110 duration-200 text-gray-900 font-semibold w-fit px-6 py-3 my-2 flex items-center align-middle rounded-md bg-gradient-to-r border-2 dark:border-0 border-slate-600 hover:border-slate-700 from-blue-300 to-cyan-300 dark:from-amber-600 dark:to-yellow-400 cursor-pointer">
-              Project
+              Resume
               <span className="group-hover:rotate-90 duration-300">
                 <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
               </span>
-            </Link>
+            </a>
           </div>
 
         </div>

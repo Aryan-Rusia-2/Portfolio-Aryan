@@ -47,7 +47,7 @@ const project = () => {
     {
       id: 3,
       src: Microsoft,
-      href: "/cpu",
+      href: "/cpu-project",
       text: "8-bit CPU Design",
     },
   ];

@@ -21,10 +21,6 @@ const NavBar = () => {
       link: "about",
     },
     {
-      id: 3,
-      link: "education",
-    },
-    {
       id: 4,
       link: "project",
     },
@@ -35,11 +31,6 @@ const NavBar = () => {
     {
       id: 6,
       link: "contact",
-    },
-
-    {
-      id: 7,
-      link: "awards",
     },
   ];
 
@@ -56,13 +47,13 @@ const NavBar = () => {
   };
 
   return (
-    <div className="flex font-semibold text-xl justify-between items-center w-full h-20 px-4 bg-white dark:bg text-gray-900 dark:text-white dark:bg-black z-20">
+    <div className="flex font-style text-xl justify-between items-center w-full h-20 px-4 bg-white dark:bg text-gray-900 dark:text-white dark:bg-black z-20">
 
       <ul className="hidden md:flex">
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 md:flex cursor-pointer capitalize text-md justify-start mr-10 text-gray-900 hover:text-black dark:text-gray-400 hover:scale-125 dark:hover:text-gray-50 duration-200"
+            className="px-4 md:flex cursor-pointer capitalize text-md justify-center text-gray-900 hover:text-black dark:text-gray-400 hover:scale-125 dark:hover:text-gray-50 duration-200"
           >
             <Link to={link} smooth duration={500}>
               {link}
@@ -72,13 +63,14 @@ const NavBar = () => {
 
         ))}
 
-        <li className="hidden md:flex mr-5 ml-8 pr-4 z=-10">
-          <ToggleButton onClick={toggleDarkMode} />
-        </li>
+
 
 
       </ul>
 
+      <div className="hidden md:flex ml-auto z=-10">
+          <ToggleButton onClick={toggleDarkMode} />
+      </div>
 
 
 
@@ -117,7 +109,7 @@ const NavBar = () => {
 
 
       <div className="flex flex-row-reverse">
-        <h1 className="text-2xl mb-2 font-normal font-special text-gray-800 dark:text-gray-400 -ml-10 duration-200 hover:scale-110 cursor-pointer mt-2 hover:text-black dark:hover:text-gray-50">Light/Dark</h1>
+        {/* <h1 className="text-2xl mb-2 font-normal font-special text-gray-800 dark:text-gray-400 -ml-10 duration-200 hover:scale-110 cursor-pointer mt-2 hover:text-black dark:hover:text-gray-50">Light/Dark</h1> */}
         <div className="mt-5 mr-6 px-4 md:hidden">
         <ToggleButton onClick={toggleDarkMode} />
         </div>

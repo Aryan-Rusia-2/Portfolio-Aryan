@@ -6,7 +6,7 @@ const Work = () => {
     return (
 
 
-        <div name="work" className='md:min-h-screen bg-white from-cyan-100 via-cyan-50 to-cyan-100 dark:bg-gray-800 dark:text-white'>
+        <div name="experience" className='md:min-h-screen bg-white from-cyan-100 via-cyan-50 to-cyan-100 dark:bg-gray-800 dark:text-white'>
 
             <div>
 
