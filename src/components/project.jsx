@@ -5,7 +5,6 @@ import cpu from "../assets/project/1.png";
 import elevator from "../assets/project/2.png";
 import travel from "../assets/project/travel.png";
 import facebook from "../assets/project/facebook.png";
-import travelinsurance from "../assets/powerBI/travelinsurance.png";
 import dashboard from "../assets/powerBI/dashboard.png";
 import sales from "../assets/powerBI/sales.png";
 import employee from "../assets/project/employee.png";
