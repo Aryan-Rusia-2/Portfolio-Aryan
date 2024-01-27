@@ -118,7 +118,7 @@ const project = () => {
   };
 
   return (
-    <div className="dark:bg-gray-800 bg-white w-full dark:text-white md:min-h-screen p-10 md:pt-20">
+    <div name="project" className="dark:bg-gray-800 bg-white w-full dark:text-white md:min-h-screen p-10">
       <div className="max-w-screen-lg mx-auto">
         <Section
           title="Machine Learning / Data Science Projects"
@@ -141,7 +141,7 @@ const project = () => {
 };
 
 const Section = ({ title, projects, settings }) => (
-  <div className="pt-20">
+  <div className="pt-10">
     <div className="text-center pb-16" >
       <p className="text-3xl md:text-4xl font-bold inline justify-center dark:border-gray-500 ">
         {title}

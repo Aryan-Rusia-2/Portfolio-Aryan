@@ -79,7 +79,7 @@ const Work = () => {
   };
 
   return (
-    <div className="bg-gray-800 text-white">
+    <div name="experience" className="bg-gray-800 text-white">
       <div className="container mx-auto py-12 px-16">
         <div className="text-center mb-16">
           <h1 className="text-4xl font-bold">Work Experience</h1>
