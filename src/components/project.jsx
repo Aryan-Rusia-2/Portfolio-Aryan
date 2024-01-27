@@ -1,8 +1,8 @@
 import React from "react";
-import divide from "../assets/project/divide.png";
+import motor from "../assets/project/3.png";
 import navsystem from "../assets/project/navsystem.png";
-import Microsoft from "../assets/project/Microsoft.png";
-import matrix from "../assets/project/matrix.png";
+import cpu from "../assets/project/1.png";
+import elevator from "../assets/project/2.png";
 import facebook from "../assets/project/facebook.png";
 import car from "../assets/project/car.png";
 import Whatsapp from "../assets/project/W.png";
@@ -34,20 +34,20 @@ const project = () => {
   const hardware_projects = [
     {
       id: 1,
-      src: divide,
+      src: motor,
       href: "/motor-project",
       text: "Stepper Motor - Zybo Z7",
     },
     {
       id: 2,
-      src: matrix,
+      src: elevator,
       href: "/elevator-project",
       text: "Elevator System - VHDL",
     },
     {
       id: 3,
-      src: Microsoft,
-      href: "/cpu",
+      src: cpu,
+      href: "/cpu-project",
       text: "8-bit CPU Design",
     },
   ];
