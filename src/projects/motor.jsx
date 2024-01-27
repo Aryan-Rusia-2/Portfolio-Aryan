@@ -1,5 +1,5 @@
 import React from "react";
-import Laptop from "../assets/project/Laptop.png";
+import Laptop from "../assets/project/3.png";
 
 const motor = () => {
   return (
