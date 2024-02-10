@@ -28,13 +28,13 @@ const project = () => {
     {
       id: 2,
       src: Whatsapp,
-      href: "https://github.com/Aryan-Rusia-2/Matrix-Operations",
+      href: "https://whatsapp-chat-analyzer-8zuxje5cvjzeokvi9he55g.streamlit.app/",
       text: "WhatsApp Chat Analyzer",
     },
     {
       id: 3,
       src: Kessler,
-      href: "https://github.com/Aryan-Rusia-2/Microsoft-Clone",
+      href: "https://github.com/Aryan-Rusia-2/kessler_game-controller",
       text: "Kessler Game Controller",
     },
     {
