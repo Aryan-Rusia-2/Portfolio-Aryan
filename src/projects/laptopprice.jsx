@@ -10,7 +10,7 @@ const laptopprice = () => {
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col w-full h-full">
         <div className="pb-8">
           <p className="text-2xl font-style md:text-4xl md:pl-2 md:p-5 font-bold inline border-black dark:border-gray-500">
-           My Digital Adventure: Unveiling the Magic of VHDL on Zybo Z7
+           Laptop Price Predictor 
           </p>
         </div>
 
@@ -27,6 +27,8 @@ const laptopprice = () => {
         <img src={Laptop} alt="" />
 
         <br />
+
+        <a href="https://laptoppricepredictor-byaryan.streamlit.app/">Click here for demo</a>
 
         <p className="text-3xl pl-2 p-5 font-bold inline border-black dark:border-gray-500">
           The Tech Behind the Magic
