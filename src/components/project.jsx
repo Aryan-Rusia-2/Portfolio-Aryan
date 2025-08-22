@@ -73,7 +73,7 @@ const project = () => {
     {
       id: 3,
       src: cpu,
-      href: "/cpu-project",
+      href: "/cpu",
       text: "8-bit CPU Design",
     },
   ];
