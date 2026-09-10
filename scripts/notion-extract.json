@@ -1,0 +1,2009 @@
+{
+  "_hub": {
+    "pages": [
+      {
+        "id": "2f6a57fe-8fbd-80ec-93ea-dc0513442995",
+        "title": "Hi, I am Aryan"
+      }
+    ]
+  },
+  "snow-robot": {
+    "slug": "snow-robot",
+    "title": "Autonomous Snow Clearing Robot",
+    "cover": "snow-robot/00-cover.jpg",
+    "extra": {
+      "QRPo": "Python,Computer vision,OpenCV,Embedded systems,NVIDIA Jetson",
+      "TZDq": "Technology Lead (CTO)",
+      "dnua": "Hardware,AI",
+      "i[hE": "1"
+    },
+    "blocks": [
+      {
+        "type": "img",
+        "file": "snow-robot/02-autonomous_robot.png",
+        "alt": "autonomous_robot.png",
+        "caption": null
+      },
+      {
+        "type": "h3",
+        "text": "Project Overview"
+      },
+      {
+        "type": "p",
+        "text": "SnowBotics is a robotics startup focused on building an autonomous snow-clearing robot for outdoor environments. I led the development of the computer vision and navigation system, working across embedded AI, perception, and real-world robotics constraints."
+      },
+      {
+        "type": "p",
+        "text": "The goal was to design a cost-effective, reliable autonomous system capable of detecting obstacles and navigating safely in harsh winter conditions."
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "h3",
+        "text": "What I Did"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Designed and implemented the computer vision pipeline for obstacle detection",
+          "Deployed ML models on NVIDIA Jetson Nano for real-time edge inference",
+          "Integrated ultrasonic sensors with vision-based perception for obstacle awareness",
+          "Developed Python-based control and navigation logic for autonomous movement",
+          "Worked with Raspberry Pi and embedded hardware for system coordination",
+          "Actively showcased and pitched the working prototype at major startup events"
+        ]
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "h3",
+        "text": "Tech Stack & Skills"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Computer Vision: OpenCV, Object Detection",
+          "Machine Learning: TensorFlow, CNNs",
+          "Embedded AI: NVIDIA Jetson Nano, Raspberry Pi",
+          "Robotics: Sensor integration, autonomous navigation",
+          "Languages: Python"
+        ]
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "h3",
+        "text": "Impact & Results"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Showcased the working prototype at 20+ startup and innovation events",
+          "Selected for Collision Conference, North America’s largest tech conference",
+          "Won highest mock valuation ($3.5M) at the University of Alberta’s eTank Pitch Competition",
+          "Validated technical feasibility and market interest through live demos and pitches"
+        ]
+      },
+      {
+        "type": "img",
+        "file": "snow-robot/03-pitch_competition.jpg",
+        "alt": "pitch_competition.jpg",
+        "caption": null
+      },
+      {
+        "type": "p",
+        "text": "SnowBotics won highest mock valuation ($3.5M) at Etank Pitch Competition, UAlberta"
+      },
+      {
+        "type": "img",
+        "file": "snow-robot/04-snowbots_collision.jpg",
+        "alt": "snowbots_collision.jpg",
+        "caption": null
+      },
+      {
+        "type": "p",
+        "text": "Showcased SnowBotics at Collision, North America’s largest tech conference."
+      },
+      {
+        "type": "img",
+        "file": "snow-robot/05-robot_3d.png",
+        "alt": "robot_3d.png",
+        "caption": null
+      }
+    ],
+    "stats": {
+      "img": 5,
+      "ok": 5,
+      "fail": 0
+    },
+    "block_count": 18
+  },
+  "research-viewer": {
+    "slug": "research-viewer",
+    "title": "Research Viewer Desktop Application",
+    "cover": "research-viewer/00-cover.png",
+    "extra": {
+      "QRPo": "Python,JavaScript,SQLite,Electron,FastAPI",
+      "TZDq": "Sole developer",
+      "dnua": "Software",
+      "i[hE": "2"
+    },
+    "blocks": [
+      {
+        "type": "h2",
+        "text": "Project Overview"
+      },
+      {
+        "type": "p",
+        "text": "Research Viewer is a local-first research application designed to handle very large document and image archives in a structured, reliable, and privacy-preserving way. The system was built to support long-term academic and archival research, where users need to browse thousands of scanned documents, annotate them, bookmark important pages, and organize material into collections — all without relying on cloud services."
+      },
+      {
+        "type": "img",
+        "file": "research-viewer/02-pic1.png",
+        "alt": "pic1.png",
+        "caption": null
+      },
+      {
+        "type": "p",
+        "text": "The application is optimized for serious research workflows, not public-facing access, and prioritizes data ownership, performance, and offline reliability."
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "h2",
+        "text": "Problem This System Solves"
+      },
+      {
+        "type": "p",
+        "text": "Researchers working with large archival collections often face challenges such as:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Massive document volumes (thousands of high-resolution images)",
+          "Poor organization and slow navigation",
+          "Lack of persistent annotations and bookmarks",
+          "Dependence on cloud tools that compromise privacy or performance",
+          "Difficulty collaborating without duplicating data"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Research Viewer addresses these issues by providing a self-contained, offline-capable system that keeps all data local while still supporting structured research workflows and optional collaboration."
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "h2",
+        "text": "System Design & Architecture"
+      },
+      {
+        "type": "p",
+        "text": "The system follows a local-first architecture, meaning all data lives on the user’s machine."
+      },
+      {
+        "type": "h3",
+        "text": "Core Components"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Local Backend Service: Handles data access, authentication, and coordination between UI and storage.",
+          "Web-Based Frontend UI: Used for browsing, viewing, annotating, and organizing documents. — Can be accessed via: — A standard browser (local) — A desktop wrapper (Electron)",
+          "Local Storage Layer: SQLite database for metadata and user-generated data — Large image archive stored directly on disk (not duplicated)"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "No cloud services, remote databases, or third-party storage are required"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "h2",
+        "text": "Archive & Data Model"
+      },
+      {
+        "type": "p",
+        "text": "The system is designed around a hierarchical archival structure, reflecting real-world research collections:"
+      },
+      {
+        "type": "p",
+        "text": "Series → Reels → Items → Images"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Items are the primary research unit",
+          "Each item may contain hundreds or thousands of images",
+          "All annotations, bookmarks, and collections operate at the image and item level"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "This structure allows efficient navigation while preserving archival context"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "h2",
+        "text": "Key Features"
+      },
+      {
+        "type": "h3",
+        "text": "High-Performance Document Viewer"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Large image viewing with zoom and pan",
+          "Page-level navigation for long documents",
+          "Full-screen viewing for detailed analysis"
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Annotations"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Region-based annotations (highlight specific areas)",
+          "Image-level note annotations",
+          "Persistent and user-specific",
+          "Synced across different viewing modes."
+        ]
+      },
+      {
+        "type": "img",
+        "file": "research-viewer/03-pic3.png",
+        "alt": "pic3.png",
+        "caption": null
+      },
+      {
+        "type": "h3",
+        "text": "Bookmarks"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Save and return to exact document pages",
+          "Metadata-aware (series, reel, item, page)",
+          "Designed for long research sessions"
+        ]
+      },
+      {
+        "type": "img",
+        "file": "research-viewer/04-pic4.png",
+        "alt": "pic4.png",
+        "caption": null
+      },
+      {
+        "type": "h3",
+        "text": "Collections"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Group images from different documents into custom collections",
+          "Enables thematic research without altering the archive structure",
+          "Separate “Collection Viewer” for focused review"
+        ]
+      },
+      {
+        "type": "img",
+        "file": "research-viewer/05-pic5.png",
+        "alt": "pic5.png",
+        "caption": null
+      },
+      {
+        "type": "h3",
+        "text": "Search & Navigation"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Structured search across series, reels, and items",
+          "Designed for fast discovery, not full-text analysis",
+          "Built to scale with large archival datasets"
+        ]
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "h2",
+        "text": "Security & Data Ownership"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "All data stored locally",
+          "User accounts managed by the application",
+          "No external authentication providers",
+          "Optional, temporary multi-user access via secure tunneling (operator-controlled)",
+          "No data leaves the host system unless explicitly enabled."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "This makes the system suitable for sensitive archives and institutional research environments."
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "h2",
+        "text": "Scale & Real-World Use"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Designed to handle large, high-resolution archival collections",
+          "Supports thousands of images per item",
+          "Optimized for long-running research sessions",
+          "Built for historians, archivists, and academic researcher"
+        ]
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "h2",
+        "text": "Why This Project Matters"
+      },
+      {
+        "type": "p",
+        "text": "This project demonstrates my ability to:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Design serious software systems, not just prototypes",
+          "Think in terms of data scale, persistence, and long-term usability",
+          "Build tools for real users with real constraints",
+          "Architect systems that balance performance, privacy, and usability"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "It also complements my other work by showing strength beyond AI, in system design, data-heavy applications, and real-world software engineering."
+      }
+    ],
+    "stats": {
+      "img": 5,
+      "ok": 5,
+      "fail": 0
+    },
+    "block_count": 48
+  },
+  "obd-ii": {
+    "slug": "obd-ii",
+    "title": "OBD-II Based Auto Dynamics System",
+    "cover": "obd-ii/00-cover.png",
+    "extra": {
+      "QRPo": "Python,Machine learning,TinyML,Sensor Fusion,Streamlit",
+      "TZDq": "Machine Learning Engineer",
+      "dnua": "AI,Hardware,Software",
+      "i[hE": "3"
+    },
+    "blocks": [
+      {
+        "type": "h2",
+        "text": "Project Overview"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "p",
+        "text": "The OBD-II Based Auto Dynamics System is a compact, cost-effective vehicle diagnostics and performance analysis platform designed for rally and high-performance vehicles. The project was built as a team effort to bridge the gap between basic OBD-II scanners and expensive motorsport telemetry systems."
+      },
+      {
+        "type": "img",
+        "file": "obd-ii/02-machine_learning.png",
+        "alt": "machine_learning.png",
+        "caption": null
+      },
+      {
+        "type": "p",
+        "text": "The system collects vehicle diagnostics and motion data, performs on-device anomaly detection using TinyML, and provides real-time and post-race analytics through a mobile app and a cloud dashboard."
+      },
+      {
+        "type": "h2",
+        "text": "Problem This Project Addresses"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "p",
+        "text": "Standard OBD-II tools provide limited insight into real-time vehicle dynamics, while professional motorsport telemetry systems are costly and difficult to customize. Our goal was to design a portable, intelligent, and affordable alternative that:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Works offline by default",
+          "Supports real-time diagnostics",
+          "Adds intelligence through edge-based ML",
+          "Enables flexible visualization without vendor lock-in"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "System Architecture (High Level)"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "p",
+        "text": "The system follows a modular, end-to-end architecture with four main layers:"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "Data Acquisition: OBD-II vehicle diagnostics (RPM, throttle position, speed, etc.) — Motion data from onboard IMU sensors (acceleration, rotation)",
+          "Edge Processing: Embedded processing on Arduino Nano ESP32-S3 — On-device anomaly detection using TensorFlow Lite for Microcontrollers",
+          "Wireless Communication: Bluetooth Low Energy (BLE) for live data streaming to a mobile app — Wi-Fi + MQTT for cloud uploads when triggered by the user",
+          "Visualization & Analytics: Mobile app for real-time monitoring — Cloud-hosted dashboard for post-race analysis"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "All data is logged locally first and uploaded only when explicitly requested, ensuring robustness and data integrity"
+      },
+      {
+        "type": "img",
+        "file": "obd-ii/03-image-2.png",
+        "alt": "image-2.png",
+        "caption": null
+      },
+      {
+        "type": "h2",
+        "text": "My Contributions"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "p",
+        "text": "As part of a 4-member team, I worked across embedded systems and machine learning aspects of the project:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Helped design the overall system architecture and data flow",
+          "Worked on embedded firmware logic for sensor data handling",
+          "Contributed to TinyML-based anomaly detection on the ESP32-S3",
+          "Assisted with data structuring and logging for reliable telemetry storage",
+          "Participated in system integration, testing, and performance evaluation"
+        ]
+      },
+      {
+        "type": "img",
+        "file": "obd-ii/04-image-1.png",
+        "alt": "image-1.png",
+        "caption": null
+      },
+      {
+        "type": "h2",
+        "text": "Machine Learning & Edge Intelligence"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Implemented a supervised TinyML model for anomaly detection",
+          "Model runs directly on the microcontroller (edge inference)",
+          "Uses combined OBD-II parameters and IMU data as input features",
+          "Designed to detect abnormal vehicle behavior in near real-time"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "During testing, the system achieved:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "~65% anomaly detection accuracy",
+          "~6 seconds end-to-end latency (sensor → alert)"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "These results highlighted both the feasibility of TinyML on embedded hardware and clear paths for future optimization"
+      },
+      {
+        "type": "h2",
+        "text": "Data Visualization & Analytics"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Mobile Application: Live telemetry via BLE — Displays diagnostic parameters and detected anomalies — User-controlled cloud upload",
+          "Cloud Dashboard: Built using Streamlit — Hosted on AWS — Supports post-race analysis across: — Telemetry trends — Diagnostic trouble codes (DTCs) — Acceleration and gear-shift analysis"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "This separation allows lightweight real-time monitoring and deeper offline analysis"
+      },
+      {
+        "type": "img",
+        "file": "obd-ii/05-thumbnail.png",
+        "alt": "thumbnail.png",
+        "caption": null
+      },
+      {
+        "type": "h2",
+        "text": "Testing & Results"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Tested using an OBD-II emulator to simulate real vehicle data",
+          "Verified:: Sensor data acquisition — Embedded ML inference — Wireless data transmission — Cloud ingestion and visualization",
+          "Successfully demonstrated end-to-end system functionality, from vehicle data capture to dashboard analytics OBD-II based Auto Dynamic Syste…"
+        ]
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "h2",
+        "text": "Key Takeaways"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Practical experience with TinyML on embedded hardware",
+          "End-to-end system design: sensors → edge ML → cloud analytics",
+          "Trade-offs between latency, accuracy, and resource constraints",
+          "Building scalable telemetry systems without relying on heavy cloud dependency"
+        ]
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "h2",
+        "text": "Why This Project Matters"
+      },
+      {
+        "type": "p",
+        "text": "This project demonstrates my ability to work on real-world, system-level engineering problems that combine:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Embedded systems",
+          "Machine learning at the edge",
+          "Data pipelines and visualization",
+          "Team-based engineering under realistic constraints"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "It complements my other work by showing strength in applied ML, embedded AI, and data-driven system design, not just standalone models."
+      }
+    ],
+    "stats": {
+      "img": 5,
+      "ok": 5,
+      "fail": 0
+    },
+    "block_count": 42
+  },
+  "sql-chatbot": {
+    "slug": "sql-chatbot",
+    "title": "SQL-Backed AI Chatbot",
+    "cover": "sql-chatbot/00-cover.png",
+    "extra": {
+      "QRPo": "Python,SQL,MySQL,LLMs,Vector search,Retrieval systems",
+      "TZDq": "Lead engineer",
+      "dnua": "AI,Software",
+      "i[hE": "4"
+    },
+    "blocks": [
+      {
+        "type": "h3",
+        "text": "Project Overview"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "p",
+        "text": "This project involved building a production-oriented AI assistant that converts natural language questions into structured database queries, retrieves results across multiple data sources, and returns clear, human-readable answers."
+      },
+      {
+        "type": "p",
+        "text": "The system was designed to work reliably on large, structured datasets, combining SQL-based analytics, image retrieval, and context-aware follow-up handling. The primary focus was correctness, safety, and consistency—ensuring that every answer could be traced back to validated data."
+      },
+      {
+        "type": "img",
+        "file": "sql-chatbot/02-pic.png",
+        "alt": "pic.png",
+        "caption": null
+      },
+      {
+        "type": "h3",
+        "text": "What the System Does"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Converts natural language queries into SQL for analytical databases",
+          "Retrieves results from multiple databases, including:: A primary relational database for structured numeric data — A separate image-oriented database for media retrieval",
+          "Performs cross-database coordination to answer mixed queries (data + images)",
+          "Returns:: Verified SQL-backed answers — Human-readable summaries — Relevant image results when requested",
+          "Supports follow-up questions using conversational memory"
+        ]
+      },
+      {
+        "type": "img",
+        "file": "sql-chatbot/03-pic2.png",
+        "alt": "pic2.png",
+        "caption": null
+      },
+      {
+        "type": "h3",
+        "text": "Key Capabilities"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Hybrid Query Routing: Automatically decides whether a question should be answered via structured SQL queries, image retrieval, or a combination of both.",
+          "Template-Guided + Fallback SQL Generation: Uses predefined query patterns for speed and reliability, with intelligent fallback logic for complex or unseen questions.",
+          "Validation & Safety Layer: Ensures generated queries conform to schema rules and are safe to execute before running against production data.",
+          "Answer Generation: Transforms raw query results into concise, well-structured natural language responses.",
+          "Stateful Conversations: Maintains context such as filters and constraints, allowing natural follow-up queries without repetition."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Why This Project Matters"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "p",
+        "text": "This project demonstrates my ability to:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Build trustworthy AI systems that interact directly with real databases",
+          "Design LLM-powered applications that prioritize correctness over hallucination",
+          "Integrate multiple data sources into a single intelligent interface",
+          "Balance AI flexibility with deterministic, auditable system design",
+          "Deliver production-grade AI tools suitable for large organizations"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "It represents a strong example of applied AI engineering, not just model usage."
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "h3",
+        "text": "Technologies (High Level)"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Large Language Models (NL → SQL)",
+          "Relational Databases (SQL)",
+          "Vector-based retrieval and ranking",
+          "Image search and embedding pipelines",
+          "Python-based backend systems",
+          "Web-based interactive interface"
+        ]
+      }
+    ],
+    "stats": {
+      "img": 3,
+      "ok": 3,
+      "fail": 0
+    },
+    "block_count": 20
+  },
+  "scraper": {
+    "slug": "scraper",
+    "title": "Scalable Web Scraping Pipeline",
+    "cover": "scraper/00-cover.png",
+    "extra": {
+      "QRPo": "Python,Streamlit",
+      "TZDq": "Sole engineer",
+      "dnua": "Software",
+      "i[hE": "5"
+    },
+    "blocks": [
+      {
+        "type": "h2",
+        "text": "Large-Scale Web Scraping & Metadata Processing Pipeline"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "h2",
+        "text": "Project Overview"
+      },
+      {
+        "type": "p",
+        "text": "This project involved building a large-scale, production-grade data pipeline to harvest, structure, and download the complete William Howard Taft Papers collection from the Library of Congress."
+      },
+      {
+        "type": "p",
+        "text": "The collection contains hundreds of thousands of high-resolution archival images with complex metadata relationships. The core challenge was not scraping alone, but designing a system that is reliable, resumable, auditable, and scalable enough to run continuously over long periods without data loss or duplication."
+      },
+      {
+        "type": "p",
+        "text": "The final system produces clean relational datasets (CSV + SQLite) and a robust bulk image downloader, forming a foundation for future research, OCR, annotation, and AI-based analysis."
+      },
+      {
+        "type": "img",
+        "file": "scraper/02-image_-4.png",
+        "alt": "image_(4).png",
+        "caption": null
+      },
+      {
+        "type": "h2",
+        "text": "Scale & Complexity"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Hundreds of reels and cataloged items",
+          "~770,000 cataloged images (JPG + TIFF variants)",
+          "~1.5 million total files",
+          "Expected dataset size: 15–20 TB",
+          "Long-running downloads spanning weeks, not hours"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "This required careful attention to filesystem limits, network reliability, metadata consistency, and recovery from partial failures."
+      },
+      {
+        "type": "h2",
+        "text": "What the System Does"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "h3",
+        "text": "Metadata Harvesting & Structuring"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Extracts structured metadata from the Library of Congress APIs",
+          "Preserves raw JSON snapshots for traceability",
+          "Normalizes metadata into relational tables (series, reels, items, subjects, headings)",
+          "Uses consistent identifiers to maintain clean relationships across all data"
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Image Inventory"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Builds a complete inventory of all cataloged images",
+          "Tracks page-level details including item ID, reel ID, and frame numbers",
+          "Reconciles differences between public image counts and officially cataloged metadata",
+          "Produces a verifiable, auditable record of what exists and what does not"
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Bulk Image Downloading"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Downloads highest-resolution JPG and TIFF images",
+          "Uses polite rate limiting and retry logic",
+          "Fully resume-safe: interrupted runs continue without re-downloading verified files",
+          "Maintains a persistent index tracking status, size, attempts, and errors",
+          "Designed to run unattended for long durations"
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Relational Database Design"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Builds a SQLite database linking all metadata tables",
+          "Images remain as normal files on disk; the database stores references",
+          "Deterministic filenames embed identifiers, making files self-describing",
+          "Enables future tooling to retrieve metadata and images together efficiently"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Key Design Decisions"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "h3",
+        "text": "Deterministic Filenames"
+      },
+      {
+        "type": "p",
+        "text": "Each image filename encodes its identifiers (series, reel, item, page), ensuring:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Files are traceable even without the database",
+          "Relationships remain intact across systems",
+          "Storage layout can change without breaking references"
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Database + Filesystem Separation"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Metadata lives in SQLite for fast querying",
+          "Large binary files stay on disk for efficiency",
+          "This avoids database bloat while keeping relationships explicit"
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Resume & Audit Safety"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "No file is downloaded twice once verified",
+          "Failed or missing files are logged explicitly",
+          "Index rebuild allows recovery even if runtime state is lost",
+          "Designed for imperfect networks and real-world interruptions"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Why This Project Matters"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "p",
+        "text": "This project demonstrates my ability to:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Design real-world data systems at scale",
+          "Go beyond scraping into long-running, fault-tolerant pipelines",
+          "Think in terms of future extensibility (OCR, annotations, AI)",
+          "Balance performance, correctness, and operational simplicity",
+          "Communicate clearly with non-technical stakeholders while building technical depth"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "It reflects systems thinking, not just scripting."
+      }
+    ],
+    "stats": {
+      "img": 2,
+      "ok": 2,
+      "fail": 0
+    },
+    "block_count": 35
+  },
+  "kessler": {
+    "slug": "kessler",
+    "title": "Kessler Game Controller",
+    "cover": "kessler/00-cover.jpeg",
+    "extra": {
+      "QRPo": "Genetic Algorithm,Fuzzy logic,Python",
+      "TZDq": "Core algorithm developer",
+      "dnua": "AI",
+      "i[hE": "6"
+    },
+    "blocks": [
+      {
+        "type": "h2",
+        "text": "Project Overview"
+      },
+      {
+        "type": "p",
+        "text": "This project involved building an AI controller for the Kessler Game as part of a 3-member team. The objective was to design an intelligent agent capable of making real-time decisions for movement, aiming, and firing in a dynamic game environment."
+      },
+      {
+        "type": "img",
+        "file": "kessler/02-image.jpeg",
+        "alt": "image.jpeg",
+        "caption": null
+      },
+      {
+        "type": "p",
+        "text": "Our team focused on combining fuzzy logic–based decision making with genetic algorithm optimization to improve performance and adaptability during gameplay."
+      },
+      {
+        "type": "h2",
+        "text": "My Contribution"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Designed and implemented the fuzzy logic controller for:: Aiming accuracy — Firing decisions — Thrust and movement control",
+          "Defined fuzzy rules to handle uncertainty in game-state inputs",
+          "Integrated genetic algorithms to optimize fuzzy membership functions",
+          "Worked closely with team members to test, evaluate, and refine controller behavior across multiple game scenarios"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Optimization & Results"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Genetic optimization led to a ~17% performance improvement",
+          "Our team secured 2nd place in the university Kessler Game competition",
+          "Competed against 16 teams",
+          "The final controller demonstrated stable and competitive behavior in both semi-final and final matches"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Tech Stack & Skills"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Artificial Intelligence: Fuzzy Logic, Genetic Algorithms",
+          "Machine Learning: Optimization-based learning",
+          "Programming: Python",
+          "Concepts: Multi-agent competition, real-time decision systems, evolutionary optimization"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Media & Demos"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "p",
+        "text": "🎥 Semi-Final Match (YouTube)"
+      },
+      {
+        "type": "p",
+        "text": "🎥 Final Match (YouTube)"
+      },
+      {
+        "type": "h2",
+        "text": "Why This Project Matters"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "p",
+        "text": "This project highlights my ability to:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Work effectively in a team-based AI project",
+          "Build interpretable AI systems without relying on deep learning",
+          "Apply evolutionary algorithms to optimize real-time decision logic",
+          "Translate theoretical AI concepts into competitive, working systems"
+        ]
+      }
+    ],
+    "stats": {
+      "img": 2,
+      "ok": 2,
+      "fail": 0
+    },
+    "block_count": 21
+  },
+  "cpu": {
+    "slug": "cpu",
+    "title": "Custom 8-Bit CPU Design",
+    "cover": "cpu/00-cover.png",
+    "extra": {
+      "QRPo": "VHDL,Digital design,FPGA,FSM,Datapath design",
+      "TZDq": "Sole developer",
+      "dnua": "Hardware",
+      "i[hE": "7"
+    },
+    "blocks": [
+      {
+        "type": "h2",
+        "text": "Building My Own 8-Bit CPU: A Hardware Adventure"
+      },
+      {
+        "type": "p",
+        "text": "So, I decided to make my own 8-bit CPU. It's like a tiny brain that can follow 16 different commands. Let me break down how I put it together!"
+      },
+      {
+        "type": "img",
+        "file": "cpu/02-pic.png",
+        "alt": "pic.png",
+        "caption": null
+      },
+      {
+        "type": "p",
+        "text": "First of all, I was supposed to make the individual components of the datapath, and then group them together into a single file of datapath. The individual components included the multiplexer, arithmetic logic unit, register file, tri-state-buffer and accumulator. The explanation of each of the components is given below. Initially, I tested each of the components separately, and then I did a combined test of all the components together in the datapath file."
+      },
+      {
+        "type": "p",
+        "text": "The datapath starts with the multiplexer, and depending on the mux select value, it passes the appropriate value to the accumulator. When the acc_write control signal is ‘1’, it reads and stores the output of the multiplexer. After that, the value of the accumulator can go to three possible components. First, it can go to the register file to write/store a value in one of the 8 registers. Second, it goes to the ALU and acts as one of the inputs for the ALU. Third, it also goes to the tri-state buffer, where depending on the control signal ‘output_enable’, it stores the value in the buffer and then further displays it on the seven-segment display."
+      },
+      {
+        "type": "h2",
+        "text": "Step 1: Creating the Core (DataPath)"
+      },
+      {
+        "type": "h3",
+        "text": "Multiplexer Madness"
+      },
+      {
+        "type": "p",
+        "text": "The multiplexer chooses from four 8-bit inputs, determining which one gets written to the accumulator based on the specifications outlined in Table 2. There were 4 possible inputs to the multiplexer, namely ALU output, register file output, immediate data and the user input.’"
+      },
+      {
+        "type": "img",
+        "file": "cpu/03-pic2.png",
+        "alt": "pic2.png",
+        "caption": null
+      },
+      {
+        "type": "h3",
+        "text": "Registers: The Memory Keepers"
+      },
+      {
+        "type": "p",
+        "text": "The register entity consists of 8 registers each of width 8 bits, which makes a total of 8*8 = 64 bits storage in total. Since there are 8 registers, we need only 3 bits to determine the address of a specific register. There’s also a write enable signal, which decides whether to read or write in the registers."
+      },
+      {
+        "type": "h3",
+        "text": "ALU: Arithmetic Wizardry"
+      },
+      {
+        "type": "p",
+        "text": "The role of the Arithmetic Logic Unit (ALU) is to perform arithmetic and logic operations on the data. It receives input from the register file and accumulator, which is then processed according to the instruction provided by the program, and then sends the results back for further use or storage. The ALU designed in lab 3, consisted of a total of 8 operations, which are shown in the table below. There were 3 bits dedicated for the alu select, and 2 bits to determine the value of bits_rotate."
+      },
+      {
+        "type": "img",
+        "file": "cpu/04-pic3.png",
+        "alt": "pic3.png",
+        "caption": null
+      },
+      {
+        "type": "h3",
+        "text": "Tri-State Buffer"
+      },
+      {
+        "type": "p",
+        "text": "The tri-state buffer consists of an enable signal, and when activated, it directs the content of the accumulator to be stored in the buffer. This buffered information is then showcased to the user through the two-digit seven-segment LED display, serving as the CPU's output."
+      },
+      {
+        "type": "h3",
+        "text": "Accumulator: The Heartbeat"
+      },
+      {
+        "type": "p",
+        "text": "The accumulator is an essential 8-bit register which plays an important role in the overall system by working as a bridge between the multiplexer and the other components of the datapath. The output of the accumulator is distributed to three key components. Firstly, it contributes data to the register file. Secondly, it serves as an input for the Arithmetic Logic Unit (ALU). Lastly, the accumulator's output also goes into the tri-state buffer, enabling the display of CPU’s output to the user on the two-digit seven-segment LED display."
+      },
+      {
+        "type": "p",
+        "text": "Combining these elements births the DataPath, the computational core where the magic unfolds. Simulating the DataPath validates the synergy of its components, setting the stage for the CPU's grand performance."
+      },
+      {
+        "type": "p",
+        "text": "Datapath is the hardware that performs all the data processing and the required operations, for example, ALU, registers, and internal buses. It consists of all the 5 individual components, namely ALU, multiplexer, Register file, accumulator and tri-state buffer. In the datapath file, we instantiate all the components and link the signals and ports as required by the design"
+      },
+      {
+        "type": "h2",
+        "text": "Step 2: Crafting the Controller"
+      },
+      {
+        "type": "p",
+        "text": "In next part, I was supposed to complete the design of the controller module, which is the brain of the whole CPU. Here, I defined different states in the finite state machine, one for each instruction (except CSKIP, it takes 2 clock cycles), one for STATE FETCH and one for STATE DECODE."
+      },
+      {
+        "type": "p",
+        "text": "Firstly, the state machine fetches the instruction from the program memory and then decodes it in the next clock cycle. Now, after determining the opcode of the instruction, the state machine accordingly goes to the next state. After the execution of the instruction is over, the state machine again goes to the STATE FETCH to fetch the next instruction, and the whole cycle keeps on repeating."
+      },
+      {
+        "type": "p",
+        "text": "So, the controller sends the required control signals to the datapath module, which then completes the execution of the instruction. There are a total of 15 instructions in the instruction set architecture, out of which, 13 were given to us in the manual and we were required to implement the rest of the 2 instructions. The two custom instructions, which we are using are JMPR and CSKIP. Below, we have described the implementation of both the instructions in detail."
+      },
+      {
+        "type": "h3",
+        "text": "JMPR (Jump Relative)"
+      },
+      {
+        "type": "p",
+        "text": "This instruction does a memory jump in the program. If we want to skip ahead, then use a positive number; if we need to go back, then use a negative number. We use 6 bits for this, where the first bit decides the direction (plus or minus), and the other 5 bits tell us how far to jump, allowing for a range from -32 to 31 in the memory shift."
+      },
+      {
+        "type": "h3",
+        "text": "CSKIP (Conditional SKIP)"
+      },
+      {
+        "type": "p",
+        "text": "CSKIP instruction skips the next instruction if the accumulator equals the value in register R[rrr], which is specified in the instruction binary code. Note that, CSKIP skips the entire next instruction, irrespective of its size; for instance, even if the instruction is 16 bits, the entire instruction is bypassed instead of just skipping one memory location of 8 bits. In the CSKIP instruction, we examined the opcodes of the next instruction. If the next instruction was 16 bits, we advanced by 2 memory locations; for 8-bit instructions, we skipped just one memory location."
+      },
+      {
+        "type": "h2",
+        "text": "Step 3: Combining the Datapath and the Controller"
+      },
+      {
+        "type": "p",
+        "text": "Next I completed the cpu_core design file, which instantiated datapath and controller entities. So, cpu_core acts like a top level entity for datapath and controller. Then I finished the cpu core testbench and cpu core constraint files."
+      },
+      {
+        "type": "p",
+        "text": "I defined ‘user_input’ and ‘enter’ values in the cpu core testbench. Unlike other testbench files the test program is defined in the controller design file. Therefore, I only need two inputs: user input only if user input is required by a program defined in controller entity and enter value which is required to translate from one state to another."
+      },
+      {
+        "type": "img",
+        "file": "cpu/05-pic4.png",
+        "alt": "pic4.png",
+        "caption": null
+      },
+      {
+        "type": "p",
+        "text": "At last, I created a top level entity, named “cpu_interface”, where I instantiated the cpu_core entity and the rest of the code was already instantiated. The other entity instantiations included SSD_Driver, keypad_detector, keypad_register and output_control. In the constraint file, I mapped all the output and input ports defined in the top level interface entity."
+      },
+      {
+        "type": "img",
+        "file": "cpu/06-pic5.png",
+        "alt": "pic5.png",
+        "caption": null
+      },
+      {
+        "type": "h2",
+        "text": "Custom Program: Single Product Inventory Manager"
+      },
+      {
+        "type": "p",
+        "text": "Our custom program is a Single Product Inventory Management System which stores the current and updated values of the inventory. Our program utilizes all 32 program memory spaces from PM(0) to PM(31), and also includes the custom instructions, namely CSKIP and JMPR."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "User have to provide input at 9th instruction to choose add/sub (0 for sub and 1 for add).",
+          "Next the user have to provide the input 15th (0F) instruction (Number of items to add)",
+          "Next the user have to provide the input 21st (15) instruction (Number of items to sub)",
+          "Next the user have to provide the input 27th (1B) instruction (0 to continue)"
+        ]
+      },
+      {
+        "type": "img",
+        "file": "cpu/07-pic6.png",
+        "alt": "pic6.png",
+        "caption": null
+      },
+      {
+        "type": "p",
+        "text": "The following registers are getting used in the program and their role is mentioned below -:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Register 0 → Totals items while initialization",
+          "Register 1 → No. of items to Add",
+          "Register 2 → No. of items to remove",
+          "Register 5 → Initialized with 1",
+          "Register 7 → Updated inventory value"
+        ]
+      }
+    ],
+    "stats": {
+      "img": 7,
+      "ok": 7,
+      "fail": 0
+    },
+    "block_count": 40
+  },
+  "nav": {
+    "slug": "nav",
+    "title": "Edmonton Route Finder Application",
+    "cover": "nav/00-cover.png",
+    "extra": {
+      "QRPo": "C++,Graph algorithms,Dijkstra",
+      "TZDq": "Sole developer",
+      "dnua": "Software",
+      "i[hE": "8"
+    },
+    "blocks": [
+      {
+        "type": "h3",
+        "text": "Project Overview"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "p",
+        "text": "This project involved building a navigation-style system that computes the shortest path between two locations on a real-world road network. Using the Edmonton city road dataset, the system allows a user to select two geographic points and returns the shortest route between them."
+      },
+      {
+        "type": "p",
+        "text": "The core of the project is a graph-based pathfinding engine implemented in C++, designed to work efficiently on a large road network."
+      },
+      {
+        "type": "img",
+        "file": "nav/02-navsystem.0078ff130a515d82ffad.png",
+        "alt": "navsystem.0078ff130a515d82ffad.png",
+        "caption": null
+      },
+      {
+        "type": "h3",
+        "text": "What the System Does"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Loads a real-world road network graph of Edmonton",
+          "Converts geographic coordinates (latitude/longitude) into graph vertices",
+          "Finds the nearest road nodes to user-selected start and end points",
+          "Computes the shortest path between those nodes using Dijkstra’s algorithm",
+          "Outputs the path step-by-step using a simple server-style protocol"
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Key Concepts & Techniques"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Graph representation using weighted directed graphs",
+          "Dijkstra’s algorithm implemented with a priority queue (min-heap)",
+          "Manhattan distance used as edge weights based on geographic coordinates",
+          "Efficient nearest-vertex lookup for mapping real locations to graph nodes",
+          "Clean separation between graph logic, pathfinding, and I/O handling"
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Why This Project Matters"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "p",
+        "text": "This project demonstrates my ability to:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Implement core algorithms on real datasets, not toy examples",
+          "Work with large graphs and performance-sensitive code",
+          "Translate geographic data into usable computational structures",
+          "Design modular C++ systems with clear responsibilities"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "It’s a strong example of algorithmic thinking applied to real-world problems, similar to how navigation systems and mapping engines work internally."
+      }
+    ],
+    "stats": {
+      "img": 2,
+      "ok": 2,
+      "fail": 0
+    },
+    "block_count": 16
+  },
+  "elevator-project": {
+    "slug": "elevator-project",
+    "title": "Elevator Control System on Zybo Z7",
+    "cover": "elevator-project/00-cover.png",
+    "extra": {
+      "QRPo": "VHDL,FSM,Zybo Z7",
+      "TZDq": "Sole developer",
+      "dnua": "Hardware",
+      "i[hE": "9"
+    },
+    "blocks": [
+      {
+        "type": "h2",
+        "text": "Crafting an Elevator System with VHDL on Zybo Z7"
+      },
+      {
+        "type": "p",
+        "text": "This project focuses on designing and implementing digital systems using VHDL and finite state machines (FSMs) on the Zybo Z7 FPGA board. The work was divided into three main parts, gradually moving from pattern detection to a fully functional elevator controller with safety handling and testing."
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "h2",
+        "text": "Part 1: Binary Pattern Detection (00XX1) Using a Moore FSM"
+      },
+      {
+        "type": "p",
+        "text": "In the first phase, I implemented a Moore finite state machine in VHDL to detect a specific binary sequence (00XX1). The goal was to understand how FSMs behave in real hardware and how state transitions respond to sequential input data."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Implemented the FSM in VHDL",
+          "Deployed and tested it on the Zybo Z7 board",
+          "Verified detection using LED outputs",
+          "Gained hands-on experience with clock-driven state transitions"
+        ]
+      },
+      {
+        "type": "img",
+        "file": "elevator-project/02-pic1.png",
+        "alt": "pic1.png",
+        "caption": null
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "h2",
+        "text": "Part 2: Analyzing the “Sequence Spectrum” Black Box"
+      },
+      {
+        "type": "p",
+        "text": "In the second phase, I worked with a pre-built module called SequenceSpectrum provided by CircuitWorks. The challenge was to treat it as a black box and understand its behavior by analyzing inputs and outputs."
+      },
+      {
+        "type": "img",
+        "file": "elevator-project/03-pci2.png",
+        "alt": "pci2.png",
+        "caption": null
+      },
+      {
+        "type": "h3",
+        "text": "Inputs"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Clock (K17): Drives the system",
+          "Data_in (G15 / SW0): Binary input stream",
+          "Clock Button (K18 / BTN0): Manual clock trigger"
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Outputs"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Data Display (M14 / LD0): Processed data output",
+          "LED Indicators (LD1–LD3): State and pattern indicators",
+          "Sequence Detected (F17 / LD6): Signals successful detection"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "This phase strengthened my understanding of signal timing, hardware debugging, and FSM behavior without access to internal logic."
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "h2",
+        "text": "Part 3: Elevator Controller System on FPGA"
+      },
+      {
+        "type": "p",
+        "text": "In the final phase, I designed a 4-floor elevator controller using VHDL. The system handled floor transitions, emergency conditions, and real-time status display."
+      },
+      {
+        "type": "img",
+        "file": "elevator-project/04-pic3.png",
+        "alt": "pic3.png",
+        "caption": null
+      },
+      {
+        "type": "h3",
+        "text": "Features"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "4-floor elevator logic",
+          "Emergency handling with a 20-second wait state",
+          "Floor status and movement indicators",
+          "Fully clock-driven FSM design"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "One of the main challenges was implementing accurate time delays using clock frequency calculations, especially for the emergency wait condition."
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "h2",
+        "text": "Testing & Validation"
+      },
+      {
+        "type": "p",
+        "text": "A dedicated testbench was created to validate the elevator controller:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Verified emergency response behavior",
+          "Tested upward movement (0 → 1 → 2 → 3)",
+          "Tested downward movement (3 → 2 → 1 → 0)",
+          "Confirmed correct state transitions under all scenarios"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "This ensured the system behaved reliably in both normal and edge cases."
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "h2",
+        "text": "Key Learnings"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Practical use of VHDL and FSMs",
+          "Hardware-based debugging on FPGA",
+          "Clock management and timing constraints",
+          "Designing reliable digital systems with safety logic"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "This project helped build a strong foundation in digital design and FPGA-based system development, and it reinforced how structured state machines can be used to model real-world systems effectively."
+      }
+    ],
+    "stats": {
+      "img": 4,
+      "ok": 4,
+      "fail": 0
+    },
+    "block_count": 32
+  },
+  "whatsapp": {
+    "slug": "whatsapp",
+    "title": "WhatsApp Chat Analyzer",
+    "cover": "whatsapp/00-cover.png",
+    "extra": {
+      "QRPo": "Python,Machine learning",
+      "TZDq": "Data analyst",
+      "dnua": "Software,AI",
+      "i[hE": "10"
+    },
+    "blocks": [
+      {
+        "type": "h2",
+        "text": "Project Overview"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "p",
+        "text": "This project involved building a data analysis tool to extract meaningful insights from WhatsApp chat exports, supporting both individual and group conversations. The goal was to transform raw chat data into clear, interpretable metrics that highlight user engagement patterns and communication behavior."
+      },
+      {
+        "type": "img",
+        "file": "whatsapp/02-w.bcd94943265b0efff94b.png",
+        "alt": "W.bcd94943265b0efff94b.png",
+        "caption": null
+      },
+      {
+        "type": "h2",
+        "text": "What the Tool Does"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Analyzes chat history to identify engagement trends",
+          "Supports one-to-one and group chats",
+          "Extracts and analyzes URLs shared in conversations",
+          "Identifies emoji usage patterns and frequency",
+          "Generates word clouds to visualize commonly used terms",
+          "Produces multiple quantitative insights from raw chat logs"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Key Outcomes"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Generated 6+ meaningful insights related to user activity and engagement",
+          "Enabled easy comparison of participation patterns in group chats",
+          "Converted unstructured chat data into structured, analyzable formats"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Technologies Used"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Python",
+          "Pandas",
+          "URL Extract",
+          "Emoji libraries",
+          "Data visualization tools"
+        ]
+      }
+    ],
+    "stats": {
+      "img": 2,
+      "ok": 2,
+      "fail": 0
+    },
+    "block_count": 13
+  },
+  "research-intern": {
+    "slug": "research-intern",
+    "title": "Monte Carlo Simulation of Ionic Devices",
+    "cover": "research-intern/00-cover.png",
+    "extra": {
+      "QRPo": "Python,Monte Carlo Simulation,Statistical simulation,Numerical analysis",
+      "TZDq": "Research assistant",
+      "dnua": "AI,Research",
+      "i[hE": "11"
+    },
+    "blocks": [
+      {
+        "type": "h2",
+        "text": "Ionic Devices Applicability in the Ising Model"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "p",
+        "text": "In nanotechnology, controlling local ion transport and electrochemical reactions is extremely important. Ionic devices, made possible by advances in this field, show unique behavior and can compete with traditional semiconductor devices in terms of speed. This work explores how ionic devices behave when modeled using the Ising framework, focusing on migration probability, nanostructure effects, and magnetization behavior."
+      },
+      {
+        "type": "h2",
+        "text": "Migration Probability in Ionic Devices"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "p",
+        "text": "Migration probability determines how easily ions move inside an ionic device. This directly affects how fast and efficient the device operates. Higher migration probability usually results in quicker responses and better performance, making it an important factor when studying ionic devices."
+      },
+      {
+        "type": "h2",
+        "text": "Nanostructure Factor in Ionic Devices"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "p",
+        "text": "The nanostructure of an ionic device strongly influences its physical behavior. It affects interaction strength between spins and the overall stability of the system. Devices with higher nanostructure factors often show more complex and enhanced behavior compared to those with lower values. Understanding this factor helps improve the design and performance of ionic devices."
+      },
+      {
+        "type": "img",
+        "file": "research-intern/02-pic1.png",
+        "alt": "pic1.png",
+        "caption": null
+      },
+      {
+        "type": "img",
+        "file": "research-intern/03-pic2.png",
+        "alt": "pic2.png",
+        "caption": null
+      },
+      {
+        "type": "h2",
+        "text": "Experimental Setup and Methodology"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "p",
+        "text": "To study these effects, simulations were performed using a grid with randomly distributed lithium spins and doping configurations. The Metropolis algorithm was used to calculate energy changes, update spins, and explore the energy landscape. This approach allows detailed analysis of ion transport and electrochemical behavior in ionic devices."
+      },
+      {
+        "type": "img",
+        "file": "research-intern/04-pic3.png",
+        "alt": "pic3.png",
+        "caption": null
+      },
+      {
+        "type": "h2",
+        "text": "Metropolis Algorithm in Detail"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "p",
+        "text": "The Metropolis algorithm works step by step. First, energy changes are calculated. Then, spin updates are accepted or rejected based on temperature and probability. Over time, the system evolves toward equilibrium. This method provides a reliable way to study how ions behave inside a lattice."
+      },
+      {
+        "type": "h2",
+        "text": "Understanding the Ising Model"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "p",
+        "text": "The Ising model is a well-known framework used to study magnetic systems arranged on a grid. It helps explain how spins interact with each other and how temperature affects magnetization. Beyond magnetism, the Ising model has also been applied to neural networks, optimization problems, and social systems."
+      },
+      {
+        "type": "h2",
+        "text": "Magnetization Behavior in Ionic Devices"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "p",
+        "text": "In an ideal system, magnetization decreases as temperature increases, eventually approaching zero as the material transitions from a ferromagnetic to a paramagnetic state. However, in ionic devices, magnetization does not follow this clear trend. Instead, it appears random, with no dominant direction. This suggests that ionic systems may not fully follow traditional Ising model behavior."
+      },
+      {
+        "type": "img",
+        "file": "research-intern/05-pic4.png",
+        "alt": "pic4.png",
+        "caption": null
+      },
+      {
+        "type": "h2",
+        "text": "Results and Analysis"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "p",
+        "text": "The results show how average magnetization changes with temperature for both ideal and ionic systems. Differences between the two cases highlight the impact of noise, lattice size, and ion dynamics. Susceptibility trends also show irregular behavior in ionic systems, making analysis more challenging."
+      },
+      {
+        "type": "h2",
+        "text": "Energy Landscape Comparison"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "p",
+        "text": "The energy landscape of ionic devices contains many local minima, indicating a complex system with multiple metastable states. This makes control and prediction more difficult. In contrast, the ideal system has fewer minima, making it easier to analyze and stabilize."
+      },
+      {
+        "type": "img",
+        "file": "research-intern/06-pic6.png",
+        "alt": "pic6.png",
+        "caption": null
+      },
+      {
+        "type": "img",
+        "file": "research-intern/07-pic7.png",
+        "alt": "pic7.png",
+        "caption": null
+      },
+      {
+        "type": "h2",
+        "text": "Discussion on Relaxation Times"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "p",
+        "text": "Relaxation time comparisons show how long the system takes to reach a stable state. Lower values indicate faster convergence. The ideal case converges more quickly, while the ionic case shows slower and more variable behavior, likely due to doping and ion movement."
+      },
+      {
+        "type": "img",
+        "file": "research-intern/08-pic9.png",
+        "alt": "pic9.png",
+        "caption": null
+      },
+      {
+        "type": "h2",
+        "text": "Future Possibilities in Ionic Devices"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "p",
+        "text": "Although current results suggest that ionic devices do not perfectly fit the Ising model, some simulations show promising behavior. With further improvements and modifications, ionic devices may better align with Ising-based modeling. Continued research could open new applications and deeper understanding."
+      },
+      {
+        "type": "img",
+        "file": "research-intern/09-pic8.png",
+        "alt": "pic8.png",
+        "caption": null
+      },
+      {
+        "type": "h2",
+        "text": "Conclusion"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "p",
+        "text": "This study examines how ionic devices behave within the Ising model framework. While several challenges remain, the results highlight areas where improvements are possible. Future work may improve compatibility and unlock new opportunities for ionic devices in nanotechnology and computational modeling."
+      },
+      {
+        "type": "img",
+        "file": "research-intern/10-pic10.png",
+        "alt": "pic10.png",
+        "caption": null
+      },
+      {
+        "type": "h2",
+        "text": "References"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "Namiki, W., Tsuchiya, T., Takayanagi, M., Higuchi, T., & Terabe, K.: Room-Temperature Manipulation of Magnetization Angle Achieved with an All-Solid-State Redox Device — ACS Nano, 2020, 14(11), 16065–16072. — https://doi.org/10.1021/acsnano.0c07906",
+          "Tsuchiya, T., Terabe, K., Ochi, M., Higuchi, T., Osada, M., Yamashita, Y., Ueda, S., & Aono, M.: In Situ Tuning of Magnetization and Magnetoresistance in Fe₃O₄ Thin Film Achieved with an All-Solid-State Redox Device — ACS Nano, 2016, 10(1), 1655–1661. — https://doi.org/10.1021/acsnano.5b07374"
+        ]
+      }
+    ],
+    "stats": {
+      "img": 10,
+      "ok": 10,
+      "fail": 0
+    },
+    "block_count": 48
+  },
+  "motor-project": {
+    "slug": "motor-project",
+    "title": "Stepper Motor Control",
+    "cover": "motor-project/00-cover.png",
+    "extra": {
+      "QRPo": "Zybo Z7,C,Vivado,FreeRTOS",
+      "TZDq": "Sole developer",
+      "dnua": "Hardware",
+      "i[hE": "12"
+    },
+    "blocks": [
+      {
+        "type": "h2",
+        "text": "Controlling a Stepper Motor Using the Zybo Z7"
+      },
+      {
+        "type": "p",
+        "text": "During the Winter 2023 term, as part of the ECE 315 – Computer Interfacing course, this project focused on gaining hands-on experience with embedded systems by controlling a stepper motor using the Zybo Z7 development board running the FreeRTOS real-time operating system."
+      },
+      {
+        "type": "p",
+        "text": "The main goals of the project were to improve the user interface for stepper motor control and to experimentally measure the speed and acceleration limits of a small stepper motor."
+      },
+      {
+        "type": "img",
+        "file": "motor-project/02-3.0959b0ca208e9369dabc.png",
+        "alt": "3.0959b0ca208e9369dabc.png",
+        "caption": null
+      },
+      {
+        "type": "h2",
+        "text": "Hardware Used"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "p",
+        "text": "The following hardware components were used in this project:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Zybo Z7 Development Board: Digilent Zybo Z7 board featuring the Zynq-7000 SoC and running the FreeRTOS real-time kernel.",
+          "28BYJ-48 Stepper Motor: A small stepper motor with unipolar drive windings.",
+          "ULN2003 Driver Module: Used to drive the stepper motor coils safely and efficiently.",
+          "LTV-847 Opto-Isolator Transistor Array: Implemented to isolate and protect sensitive digital components from voltage spikes.",
+          "Resistors and Wiring: Used to assemble the opto-isolation circuit on a breadboard."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "References and Documentation"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "p",
+        "text": "The project relied on multiple technical references, including:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Digilent Zybo Z7 Reference Manual",
+          "FreeRTOS Reference Manual",
+          "ECE 315 course lecture slides",
+          "Datasheets for the stepper motor, ULN2003 IC, and LTV-847 opto-isolator"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Hardware Setup"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "p",
+        "text": "Before development began, the hardware setup was assembled and verified. This included removing the 7-segment LED Pmod from the Zybo Z7 board and building the opto-isolation circuit on a breadboard to ensure safe motor control."
+      },
+      {
+        "type": "h2",
+        "text": "Provided Stepper Motor Control Software"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "p",
+        "text": "An initial software framework was provided, featuring:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "A FreeRTOS task that communicated with the user via UART",
+          "A user interface allowing control over:: Current motor position — Speed — Acceleration and deceleration — Destination position — Dwell time"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "A library of stepper motor functions was also provided, including initialization, parameter configuration, motion control, motion status checking, and motor shutdown."
+      },
+      {
+        "type": "h2",
+        "text": "Exercise 1: FreeRTOS Task Completion"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "p",
+        "text": "The first task involved completing the _Task_Motor() FreeRTOS task, which controls stepper motor movement based on user-defined parameters. The RGB LED on the Zybo Z7 board was used to visually indicate the motor’s operating state."
+      },
+      {
+        "type": "h2",
+        "text": "Exercise 2: Emergency Stop Implementation"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "p",
+        "text": "An emergency stop feature was implemented using the Zybo Z7 pushbutton (BTN0). When triggered:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Motor operation stopped immediately",
+          "The RGB LED blinked red to indicate the emergency state"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "This feature added an important safety mechanism to the motor control system."
+      },
+      {
+        "type": "h2",
+        "text": "Key Learnings"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "p",
+        "text": "This project provided practical experience in:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Hardware interfacing and protection using opto-isolation",
+          "Real-time task management with FreeRTOS",
+          "UART-based user interface design",
+          "Stepper motor control and performance evaluation",
+          "Implementing safety features in embedded systems"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The successful completion of the project demonstrated a solid understanding of real-time embedded systems, hardware-software integration, and motor control concepts covered in the ECE 315 course."
+      }
+    ],
+    "stats": {
+      "img": 2,
+      "ok": 2,
+      "fail": 0
+    },
+    "block_count": 33
+  }
+}
